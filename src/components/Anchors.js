@@ -40,13 +40,13 @@ const Anchors = () => {
                
                 {/* Close Button */}
                 <button className="close-btn" onClick={() => setIsOpen(false)}>✖</button>
-
+                <Link to="/consultus">HOME</Link>
                 <Link to="/consultus">CONSULT US </Link>
                 <Link to="/howitworks">HOW IT WORKS </Link>
                 <Link to="/modularjourney">MODULAR JOURNEY </Link>
                 <Link to="/offering">OFFERING</Link>
                 <Link to="/referfriend">REFER A FRIEND </Link>
-                <Link id='designI' to="/offering">DESIGN IDEAS</Link>
+                <Link id='designI' to="/contact">DESIGN IDEAS</Link>
                 <Link id='designI' to="/about">ABOUT US</Link>
                 <Link id='designI' to="/projects">PROJECTS</Link>
             </div>

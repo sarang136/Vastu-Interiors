@@ -54,11 +54,7 @@ const ConsultUs = () => {
               }}>{submit}</button>
 
 
-              <p style={{
-                fontSize: "15px",
-                marginTop: "20px",
-                marginLeft: "20px"
-              }}>By submitting this form, you agree to the <span style={{ color: "red" }} className="privateClass">privacy policy </span>& <span style={{ color: "red" }} className="privateClass">terms and conditions</span></p>
+              <p id="temp7">By submitting this form, you agree to the <span style={{ color: "red" }} className="privateClass">privacy policy </span>& <span style={{ color: "red" }} className="privateClass">terms and conditions</span></p>
 
 
               <check></check>
