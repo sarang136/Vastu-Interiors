@@ -112,9 +112,7 @@ const ConsultUs = () => {
           </div>
 
 
-          <p id="temp1" style={{
-            marginTop: "25px"
-          }}>*The prices include only modular interiors for new homes.</p>
+          <p id="temp1">*The prices include only modular interiors for new homes.</p>
         </div>
 
 
