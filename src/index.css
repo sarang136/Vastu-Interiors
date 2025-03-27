@@ -1126,11 +1126,10 @@ padding-bottom: 50px;
   /* border: 2px solid black; */
   background-color: white;
   border-radius: 10px;
-  margin-left: 110px;
 }
 
 .form input {
-  width: 340px;
+  /* width: 340px; */
   height: 50px;
   margin: 20px;
   /* padding: 20px; */
@@ -1274,14 +1273,20 @@ padding-bottom: 50px;
   background-color: #f5f4f5;
   padding: 50px 200px;
 }
-
+.page3Display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
 .page3Boxes {
-  height: 211px;
-  width: 359px;
+  /* height: 211px; */
+  /* width: 359px; */
   border: 1px solid #cccccc;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   background-color: white;
   border-radius: 10px;
+  padding: 40px 70px;
 }
 
 .page3Grid {
@@ -1292,7 +1297,7 @@ padding-bottom: 50px;
 }
 
 .page3Boxes img {
-  height: 70%;
+  height: 50%;
   width: 50%;
 }
 
@@ -1331,21 +1336,16 @@ padding-bottom: 50px;
 }
 
 .constumService-text h3 {
-  /* height: 40px; */
-  width: 200px;
-  /* margin-top: 20px; */
   border-radius: 30px;
   font-size: 20px;
   background-color: #eb595f;
-  /* border: 0.1px solid black; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-weight: lighter;
   color: white;
   transition: 0.2s ease-in-out;
+  display: inline-block;
+  padding: 0px 50px;  
+  margin-top: 20px;
 }
-
 .constumService-text h3:hover {
   cursor: pointer;
   background-color: red;
@@ -1371,7 +1371,7 @@ padding-bottom: 50px;
 .stayUpdatedGrid {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  grid-gap: 30px;
+  grid-gap: 120px;
 }
 
 .stayUpdatedBoxes {
@@ -1452,6 +1452,7 @@ padding-bottom: 50px;
   display: flex;
   padding-top: 100px;
   gap: 130px;
+  justify-content: space-around
 }
 
 .privateClass:hover {
@@ -1506,7 +1507,8 @@ padding-bottom: 50px;
 #temp7{
     font-size: 15px;
     margin-top: 20px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    width: 360px;
   
 }
 .heroContent {
@@ -1795,7 +1797,20 @@ th {
   /* border: 2px solid red; */
   padding: 100px 0px;
 }
+.consultServiceBtn{
+  margin-top: 20px;
+  border: 2px solid tomato;
+  display: inline-block;
+  padding: 10px 50px;
+  border-radius: 30px;
+  background-color: tomato;
+}
+.consultServiceBtn a{
+  color: white;
+  font-style: italic;
+  font-weight: lighter;
 
+}
 .ImagePartofForm {
   /* border: 1px solid black; */
   height: 760px;
@@ -1892,10 +1907,14 @@ th {
   margin-left: 0px;
   /* text-align: center; */
 }
-
+.page3text{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
 #temp2 {
   font-size: 40px;
-
+width: 100%;
   /* margin-left: -100px; */
 }
 
@@ -1903,6 +1922,7 @@ th {
   font-size: 27px;
   /* text-align: center; */
   margin-left: 0px;
+  width: 100%;
 }
 
 #temp4 {
@@ -1911,11 +1931,15 @@ th {
 
 #temp5 {
   font-size: 27px;
-  width: 800px;
+  /* width: 800px; */
+  width: 100%;
 }
 
 #temp6 {
   font-size: 40px;
+  width: 740px;
+  display: flex;
+  justify-content: left;
 }
 
 .secondPageofModular {
@@ -2320,7 +2344,10 @@ body {
   .temp-container {
     width: 100%;
   }
-
+  .page1consult{
+    padding: 0 40px;
+    padding-bottom: 30px;
+  }
   .nothingDiv a {
     display: none;
   }
@@ -2422,7 +2449,7 @@ body {
     grid-gap: 30px;
     margin-top: 30px;
   }
-
+ 
   .client-boxes p {
     font-size: 15px;
     margin-left: 0px;
@@ -2456,12 +2483,29 @@ body {
     border-radius: 7px;
     padding: 30px 30px;
   }
-
+  .constumService-container {
+    padding: 110px 40px;
+    padding-bottom: 140px;
+  }
+ .consultServiceBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.consultServiceBtn a{
+  font-size: 15px;
+}
   .text-div-sec h1 {
     font-weight: lighter;
     font-size: 20px;
   }
-
+  .page3text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .btn-get button {
     margin-top: 0px;
     height: 40px;
@@ -2523,7 +2567,7 @@ body {
   }
 
   .sidebar {
-    height: 40vh;
+    height: fit-content;
     width: 140px;
     padding: 30px 20px;
     padding-bottom: 60px;
@@ -2538,21 +2582,20 @@ body {
     font-size: 15px;
   }
 
-  .textleft p {
+  .textleft {
     display: none;
   }
 
   .form {
-    padding: 10px;
-    width: 280px;
-    margin-left: -182px;
+    /* padding: 30px 10px; */
+    width: 100%;
   }
 
   .form input {
-    width: 220px;
+    /* width: 220px; */
     height: 30px;
     margin: 10px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
 
   .form button {
@@ -2563,8 +2606,8 @@ body {
   }
 
   .form p {
-    font-size: 10px;
-    margin-top: 13px;
+    font-size: 25px;
+    /* margin-top: 13px; */
   }
 
   .text2consult h1 {
@@ -2572,9 +2615,9 @@ body {
   }
 
   .text2consult p {
-    width: 300px;
+    /* width: 300px; */
     font-size: 15px;
-    margin-left: -155px;
+    /* margin-left: -155px; */
     text-align: center;
   }
 
@@ -2586,8 +2629,8 @@ body {
   .consultBoxesImage {
 
     height: 50vh;
-    width: 300px;
-    margin-left: -154px;
+    width: 100%;
+    /* margin-left: -154px; */
   }
 
   .bhkDiv {
@@ -2595,51 +2638,77 @@ body {
   }
 
   #temp1 {
-    margin-top: 15px;
-    width: 310px;
-    margin-left: -160px;
+    margin-top: 45px;
+  
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
+}
+  .page2consult {
+    /* height: 95vh; */
+    padding: 40px;
+    /* border: 2px solid black; */
+  
   }
-
   #temp2 {
     font-size: 15px;
     width: 210px;
-    margin-left: -100px;
+    /* margin-left: -100px; */
   }
 
   #temp3 {
     font-size: 15px;
     width: 300px;
-    margin-left: -150px;
+    /* margin-left: -150px; */
     margin-top: 10px;
     text-align: center;
 
   }
 
   .page3Grid {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-gap: 7px;
-    margin-left: -180px;
+    display: flex;
+    display: flex;
+    overflow-x: auto; /* Enables horizontal scrolling */
+    white-space: nowrap; /* Prevents items from wrapping */
+    gap: 42px; /* Adds space between items */
+    padding: 10px; /* Optional: Adds padding for better spacing */
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+    /* display: grid;
+    grid-template-columns: repeat(2,   auto);
+    grid-gap: 42px; */
+    /* margin-left: -180px; */
   }
 
   .page3Boxes {
-    height: 140px;
-    width: 170px;
-    border: 1px solid #cccccc;
-    margin-top: 30px;
-    background-color: white;
-    border-radius: 10px;
+   
+        background-color: white;
+        border-radius: 10px;
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
   }
-
-  .text2Boxes p {
+  .stayUpdatedContainer {
+    padding: 20px;
+  }
+  .page3Boxes img {
+    height: 100px;
+    width: 100px;
+}
+.text2Boxes p {
+  font-size: 15px;
+  text-align: center;
+}
+  .text2Boxes {
     font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .constumService-container {
     /* display: none; */
-    margin-left: 70px;
+    /* margin-left: 70px; */
   }
 
   #temp4 {
@@ -2651,14 +2720,14 @@ body {
 
   #temp5 {
     font-size: 15px;
-    width: 330px;
-    margin-left: -170px;
-    margin-top: -30px;
+    /* width: 330px; */
+    /* margin-left: -170px; */
+    /* margin-top: -30px; */
     text-align: center;
   }
 
   .constumService-text h3 {
-    margin-left: -100px;
+    /* margin-left: -100px; */
     /* display: none; */
 
   }
@@ -2668,9 +2737,13 @@ body {
   }
 
   #temp6 {
-    font-size: 15px;
-    width: 280px;
-    margin-left: -143px;
+    display: flex;
+            font-size: 15px;
+            width: 100%;
+            /* margin-left: -143px; */
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
   }
 
   .stayUpdatedGrid {
@@ -2695,6 +2768,9 @@ body {
     margin-top: -45px;
   }
   #temp7{
-    font-size: 11px;
+    display: none;
+  }
+  .page3consult {
+    padding: 50px 30px;
   }
 }

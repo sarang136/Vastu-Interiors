@@ -6,7 +6,7 @@ import StayUpdatedData from "../utils/StayUpdatedData";
 
 
 const ConsultUs = () => {
-  
+
   const [submit, setSubmit] = useState("Submit Form")
 
 
@@ -22,7 +22,7 @@ const ConsultUs = () => {
         </div>
 
         <div className="page1consult">
-          
+
 
 
 
@@ -32,8 +32,6 @@ const ConsultUs = () => {
               <p>Let's get started with your dream interiors
               </p>
             </div>
-
-
             <form className="form">
               <p style={{
                 fontWeight: "500"
@@ -59,8 +57,8 @@ const ConsultUs = () => {
 
               <check></check>
             </form>
-
           </div>
+
 
 
         </div>
@@ -128,7 +126,7 @@ const ConsultUs = () => {
                   <div className="page3Boxes">
                     <div className="image3Boxes"><img src={res3.image} alt="Design" /></div>
                     <div className="text2Boxes"><p >{res3.text}</p>
-                    
+
                     </div>
                   </div>
                 ))
@@ -138,7 +136,7 @@ const ConsultUs = () => {
         </div>
 
         <div className="constumService-container ">
-          <div className="constumService-text">
+          <div className=".page3text">
             <p id="temp4">Customised services</p>
             <p id="temp5" >Can't find what you're looking for? We’ll design your home the way you like, keeping your needs and budget in mind.</p>
 
