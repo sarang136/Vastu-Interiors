@@ -1013,7 +1013,7 @@ padding-bottom: 50px;
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-gap: 40px;
-  padding: 0px 120px;
+  /* padding: 0px 120px; */
 }
 
 .client-says-display {
@@ -1033,14 +1033,13 @@ padding-bottom: 50px;
 }
 
 .client-boxes {
-  margin-top: 50px;
-  /* width: 420px; */
-  box-shadow: 0px 0px 5px #a49999;
   border-radius: 20px;
-  overflow: hidden;
-  padding: 20px;
-  padding-bottom: 90px;
+  box-shadow: 0 0 5px #a49999;
   height: 300px;
+  margin-top: 50px;
+  overflow: hidden;
+  padding: 20px 20px;
+  padding-bottom: 90px;
 }
 
 .text2Boxes p {
