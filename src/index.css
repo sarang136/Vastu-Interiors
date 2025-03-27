@@ -1371,7 +1371,7 @@ padding-bottom: 50px;
 .stayUpdatedGrid {
   display: grid;
   grid-template-columns: repeat(3, auto);
-  grid-gap: 120px;
+  grid-gap: 40px;
 }
 
 .stayUpdatedBoxes {
