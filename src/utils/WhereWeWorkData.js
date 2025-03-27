@@ -1,0 +1,47 @@
+const WhereWeWorkData = [{
+image:"https://images.livspace-cdn.com/w:148/h:148/dpr:2/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/about-us-1629737930-WrXkD/cities-1629793122-i88zm/new-icons-1652449666-kOLQo/ahmedabad-1653995498-2KyAy.png"
+},
+{
+    image:"https://images.livspace-cdn.com/w:148/h:148/dpr:2/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/about-us-1629737930-WrXkD/cities-1629793122-i88zm/new-icons-1652449666-kOLQo/bengaluru-1653995499-jTv1u.png"
+},
+{
+    image:"https://images.livspace-cdn.com/w:148/h:148/dpr:2/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/about-us-1629737930-WrXkD/cities-1629793122-i88zm/new-icons-1652449666-kOLQo/delhi-1653995510-zqQvM.png"
+},
+{
+    image:"https://images.livspace-cdn.com/w:148/h:148/dpr:2/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/about-us-1629737930-WrXkD/cities-1629793122-i88zm/new-icons-1652449666-kOLQo/goa-1653995518-YKkQH.png"
+},
+{
+    image:"https://images.livspace-cdn.com/w:148/h:148/dpr:2/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/about-us-1629737930-WrXkD/cities-1629793122-i88zm/new-icons-1652449666-kOLQo/hyderabad-1653995526-S4LNo.png"
+},
+{
+    image:"https://images.livspace-cdn.com/w:148/h:148/dpr:2/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/about-us-1629737930-WrXkD/cities-1629793122-i88zm/new-icons-1652449666-kOLQo/indore-1653995528-9B8Jk.png"
+},
+{
+    image:"https://images.livspace-cdn.com/w:148/h:148/dpr:2/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/about-us-1629737930-WrXkD/cities-1629793122-i88zm/new-icons-1652449666-kOLQo/jaipur-1653995530-N1Xvo.png"
+},
+{
+    image:"https://images.livspace-cdn.com/w:148/h:148/dpr:2/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/about-us-1629737930-WrXkD/cities-1629793122-i88zm/new-icons-1652449666-kOLQo/kolkata-1653995542-bWg3T.png"
+},
+{
+    image:"https://images.livspace-cdn.com/w:148/h:148/dpr:2/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/about-us-1629737930-WrXkD/cities-1629793122-i88zm/new-icons-1652449666-kOLQo/lucknow-1653995545-YFzoe.png"
+},
+{
+    image:"https://images.livspace-cdn.com/w:148/h:148/dpr:2/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/about-us-1629737930-WrXkD/cities-1629793122-i88zm/new-icons-1652449666-kOLQo/mumbai-1653995549-zsNSM.png"
+},
+{
+    image:"https://images.livspace-cdn.com/w:148/h:148/dpr:2/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/about-us-1629737930-WrXkD/cities-1629793122-i88zm/new-icons-1652449666-kOLQo/nagpur-1653995552-K7U1d.png"
+},
+{
+    image:"https://images.livspace-cdn.com/w:148/h:148/dpr:2/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/about-us-1629737930-WrXkD/cities-1629793122-i88zm/new-icons-1652449666-kOLQo/noida-1653995566-oZ9og.png"
+},
+{
+    image:"https://images.livspace-cdn.com/w:148/h:148/dpr:2/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/about-us-1629737930-WrXkD/cities-1629793122-i88zm/new-icons-1652449666-kOLQo/pune-1653995572-ZQh3j.png"
+},
+{
+    image:"https://images.livspace-cdn.com/w:148/h:148/dpr:2/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/about-us-1629737930-WrXkD/cities-1629793122-i88zm/new-icons-1652449666-kOLQo/thane-1653995579-wVGVz.png"
+},
+{
+    image:"https://images.livspace-cdn.com/w:148/h:148/dpr:2/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/about-us-1629737930-WrXkD/cities-1629793122-i88zm/new-icons-1652449666-kOLQo/vizag-1653995591-nbOii.png"
+}
+]
+export default WhereWeWorkData;
