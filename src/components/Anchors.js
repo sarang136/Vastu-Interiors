@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useState } from 'react';
-
+import { NavLink } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 const Anchors = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const location = useLocation();  
     return (
         <div className='temp-container'>
             <div className='container'>
@@ -54,8 +56,21 @@ const Anchors = () => {
                 </div>
             </div>
 
+            {location.pathname === "/contact" && (
+                <div className='navlinkNavbar'>
+                    <NavLink
+                        to="/contact"
+                        className={({ isActive }) => (isActive ? "active-link" : "")}>
+                        Home Interiors
+                    </NavLink>
 
-
+                    <NavLink to="/officeInterior"
+                        className={({ isActive }) => (isActive ? "active-link" : "")}
+                        style={{ color: "black", textDecoration: "none" }}>
+                        Office Interiors
+                    </NavLink>
+                </div>
+            )}
 
 
         </div>

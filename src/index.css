@@ -116,6 +116,7 @@
   background-color: white;
   display: flex;
   justify-content: center;
+  box-shadow: inset 0px 0px 5px #d4d4d4;
 }
 
 .temp-container {
@@ -475,9 +476,12 @@
 }
 
 .DesignIdeasHeading {
-  margin: 70px 120px;
+  margin: 0px 120px;
 }
-
+.mainConatainer
+{
+  padding-top: 150px;
+}
 .DesignGrids {
   height: 280px;
   width: 400px;
@@ -694,6 +698,14 @@
   height: 110vh;
 }
 
+.nothingDiv3 {
+  padding-top: 100px;
+  width: 100vw;
+  display: flex;
+  justify-content: left;
+  margin-left: 20px;
+}
+
 .nothingDiv3 a {
   margin: 0px 20px;
 }
@@ -703,6 +715,18 @@
   text-decoration: none;
   border-bottom: 0.5px solid gray;
   font-weight: lighter;
+}
+
+.navlinkNavbar {
+  padding: 0px 250px;
+  display: flex;
+  justify-content: left;
+  background-color: white;
+}
+
+.navlinkNavbar a {
+  margin: 20px;
+  
 }
 
 .GalleryForOffice {
@@ -902,7 +926,7 @@
   /* background-color: #f5ecec; */
   background-blend-mode: screen;
   margin-top: 100px;
-padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .logo-TextDiv {
@@ -1273,12 +1297,14 @@ padding-bottom: 50px;
   background-color: #f5f4f5;
   padding: 50px 200px;
 }
-.page3Display{
+
+.page3Display {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 20px;
 }
+
 .page3Boxes {
   /* height: 211px; */
   /* width: 359px; */
@@ -1343,9 +1369,10 @@ padding-bottom: 50px;
   color: white;
   transition: 0.2s ease-in-out;
   display: inline-block;
-  padding: 0px 50px;  
+  padding: 0px 50px;
   margin-top: 20px;
 }
+
 .constumService-text h3:hover {
   cursor: pointer;
   background-color: red;
@@ -1504,13 +1531,15 @@ padding-bottom: 50px;
   margin-right: 10px;
   height: 30px;
 }
-#temp7{
-    font-size: 15px;
-    margin-top: 20px;
-    /* margin-left: 20px; */
-    width: 360px;
-  
+
+#temp7 {
+  font-size: 15px;
+  margin-top: 20px;
+  /* margin-left: 20px; */
+  width: 360px;
+
 }
+
 .heroContent {
   height: 70vh;
 }
@@ -1762,10 +1791,12 @@ th {
   grid-template-columns: repeat(3, auto);
   grid-gap: 50px;
 }
-.stayUpdatedDisplay{
+
+.stayUpdatedDisplay {
   display: flex;
   justify-content: center;
 }
+
 .text2consult p {
   font-size: 20px;
 }
@@ -1797,7 +1828,8 @@ th {
   /* border: 2px solid red; */
   padding: 100px 0px;
 }
-.consultServiceBtn{
+
+.consultServiceBtn {
   margin-top: 20px;
   border: 2px solid tomato;
   display: inline-block;
@@ -1805,12 +1837,14 @@ th {
   border-radius: 30px;
   background-color: tomato;
 }
-.consultServiceBtn a{
+
+.consultServiceBtn a {
   color: white;
   font-style: italic;
   font-weight: lighter;
 
 }
+
 .ImagePartofForm {
   /* border: 1px solid black; */
   height: 760px;
@@ -1907,14 +1941,16 @@ th {
   margin-left: 0px;
   /* text-align: center; */
 }
-.page3text{
+
+.page3text {
   display: flex;
   flex-direction: column;
   justify-content: end;
 }
+
 #temp2 {
   font-size: 40px;
-width: 100%;
+  width: 100%;
   /* margin-left: -100px; */
 }
 
@@ -2152,6 +2188,20 @@ width: 100%;
   /* box-sizing: border-box; */
 }
 
+body{
+  .navlinkNavbar {
+    display: none;
+    display: block;
+        margin-top: 0px;
+        padding: 20px 250px;
+  }
+}
+
+.Contact-Conatiner{
+  .navlinkNavbar {
+    display: block;
+  }
+}
 html,
 body {
   width: 100%;
@@ -2344,13 +2394,16 @@ body {
   .temp-container {
     width: 100%;
   }
-  .page1consult{
+
+  .page1consult {
     padding: 0 40px;
     padding-bottom: 30px;
   }
+
   .nothingDiv a {
     display: none;
   }
+
   .foreground-content h1 {
     font-size: 25px;
     font-weight: lighter;
@@ -2449,7 +2502,7 @@ body {
     grid-gap: 30px;
     margin-top: 30px;
   }
- 
+
   .client-boxes p {
     font-size: 15px;
     margin-left: 0px;
@@ -2483,29 +2536,35 @@ body {
     border-radius: 7px;
     padding: 30px 30px;
   }
+
   .constumService-container {
     padding: 110px 40px;
     padding-bottom: 140px;
   }
- .consultServiceBtn {
+
+  .consultServiceBtn {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-}
-.consultServiceBtn a{
-  font-size: 15px;
-}
+  }
+
+  .consultServiceBtn a {
+    font-size: 15px;
+  }
+
   .text-div-sec h1 {
     font-weight: lighter;
     font-size: 20px;
   }
-  .page3text{
+
+  .page3text {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .btn-get button {
     margin-top: 0px;
     height: 40px;
@@ -2639,16 +2698,18 @@ body {
 
   #temp1 {
     margin-top: 45px;
-  
+
     text-align: center;
     font-size: 14px;
-}
+  }
+
   .page2consult {
     /* height: 95vh; */
     padding: 40px;
     /* border: 2px solid black; */
-  
+
   }
+
   #temp2 {
     font-size: 15px;
     width: 210px;
@@ -2667,11 +2728,16 @@ body {
   .page3Grid {
     display: flex;
     display: flex;
-    overflow-x: auto; /* Enables horizontal scrolling */
-    white-space: nowrap; /* Prevents items from wrapping */
-    gap: 42px; /* Adds space between items */
-    padding: 10px; /* Optional: Adds padding for better spacing */
-    scroll-behavior: smooth; /* Enables smooth scrolling */
+    overflow-x: auto;
+    /* Enables horizontal scrolling */
+    white-space: nowrap;
+    /* Prevents items from wrapping */
+    gap: 42px;
+    /* Adds space between items */
+    padding: 10px;
+    /* Optional: Adds padding for better spacing */
+    scroll-behavior: smooth;
+    /* Enables smooth scrolling */
     /* display: grid;
     grid-template-columns: repeat(2,   auto);
     grid-gap: 42px; */
@@ -2679,26 +2745,30 @@ body {
   }
 
   .page3Boxes {
-   
-        background-color: white;
-        border-radius: 10px;
-        padding: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
+
   .stayUpdatedContainer {
     padding: 20px;
   }
+
   .page3Boxes img {
     height: 100px;
     width: 100px;
-}
-.text2Boxes p {
-  font-size: 15px;
-  text-align: center;
-}
+  }
+
+  .text2Boxes p {
+    font-size: 15px;
+    text-align: center;
+  }
+
   .text2Boxes {
     font-size: 15px;
     display: flex;
@@ -2738,12 +2808,12 @@ body {
 
   #temp6 {
     display: flex;
-            font-size: 15px;
-            width: 100%;
-            /* margin-left: -143px; */
-            justify-content: center;
-            align-items: center;
-            padding-top: 20px;
+    font-size: 15px;
+    width: 100%;
+    /* margin-left: -143px; */
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
   }
 
   .stayUpdatedGrid {
@@ -2762,14 +2832,16 @@ body {
     margin-left: -8px;
     padding: 10px;
     padding-bottom: 20px;
-}
+  }
 
   .stayUpdatedContainer {
     margin-top: -45px;
   }
-  #temp7{
+
+  #temp7 {
     display: none;
   }
+
   .page3consult {
     padding: 50px 30px;
   }
