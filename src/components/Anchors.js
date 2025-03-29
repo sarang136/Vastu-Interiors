@@ -36,7 +36,7 @@ const Anchors = () => {
             
             <div className={`sidebar ${isOpen ? "open" : ""}`}>
             <div className='navbarLogo'>
-            <Link to={"/"}><p>VASTU INTERIORS</p></Link>
+            <Link to={"/"}><p >VASTU INTERIORS</p></Link>
             </div>
             <span className='dash1'></span>
                
@@ -56,7 +56,8 @@ const Anchors = () => {
                 </div>
             </div>
 
-            {location.pathname === "/contact" && (
+           
+            {/* {location.pathname === "/officeinterior"  && (
                 <div className='navlinkNavbar'>
                     <NavLink
                         to="/contact"
@@ -70,7 +71,7 @@ const Anchors = () => {
                         Office Interiors
                     </NavLink>
                 </div>
-            )}
+            )} */}
 
 
         </div>

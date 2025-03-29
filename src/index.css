@@ -478,10 +478,11 @@
 .DesignIdeasHeading {
   margin: 0px 120px;
 }
-.mainConatainer
-{
+
+.mainConatainer {
   padding-top: 150px;
 }
+
 .DesignGrids {
   height: 280px;
   width: 400px;
@@ -718,15 +719,20 @@
 }
 
 .navlinkNavbar {
-  padding: 0px 250px;
+  /* padding: 0px 250px; */
+  /* padding-left: 123px;
   display: flex;
   justify-content: left;
-  background-color: white;
+  background-color: white; */
+  display: flex;
+  justify-content: right;
+  padding: 0px 250px;
 }
+
 
 .navlinkNavbar a {
   margin: 20px;
-  
+
 }
 
 .GalleryForOffice {
@@ -2188,20 +2194,8 @@ th {
   /* box-sizing: border-box; */
 }
 
-body{
-  .navlinkNavbar {
-    display: none;
-    display: block;
-        margin-top: 0px;
-        padding: 20px 250px;
-  }
-}
 
-.Contact-Conatiner{
-  .navlinkNavbar {
-    display: block;
-  }
-}
+
 html,
 body {
   width: 100%;
