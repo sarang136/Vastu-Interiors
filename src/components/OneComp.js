@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import KitchenCompData from "../utils/KitchenCompData";
-
+import Anchors from "./Anchors";
 
 const OneComp = () => {
 
@@ -24,19 +24,7 @@ const OneComp = () => {
       {/* Navigation */}
       <section id="OneCompNavbar">
         <div className="navbarOfKitchenComp">
-          <div className="container">
-            <div className="anchors">
-              <div className="nothingDiv">
-                <Link style={{ textDecoration: "none" }} to="/">Home</Link>
-                <Link style={{ textDecoration: "none" }} to="/about">About Us</Link>
-                <Link style={{ textDecoration: "none" }} to="/projects">Projects</Link>
-                <Link style={{ textDecoration: "none" }} to="/contact">Design Ideas</Link>
-
-                
-              </div>
-            </div>
-            
-          </div>
+       <Anchors/>
         </div>
       </section>
 

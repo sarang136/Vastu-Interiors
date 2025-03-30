@@ -116,7 +116,7 @@
   background-color: white;
   display: flex;
   justify-content: center;
-  box-shadow: inset 0px 0px 5px #d4d4d4;
+  box-shadow: inset 0px 0px 5px #ffffff;
 }
 
 .temp-container {
@@ -505,6 +505,7 @@
   grid-template-columns: repeat(3, auto);
   /* margin: 0px 100px; */
   grid-gap: 40px;
+  margin-top: 30px;
 }
 
 .DesignDisplay {
@@ -538,6 +539,7 @@
   justify-content: center;
   /* padding-left: 20px; */
   align-items: center;
+  padding-top: 70px;
 }
 
 .nothingDiv2 {
