@@ -32,25 +32,25 @@ const OneComp = () => {
       <div className="secondNavbar-KitchenComp">
         <div className="anchors2">
           <div className="nothingDiv2">
-            <Link style={{ textDecoration: "none" }} to="/oneComp">Kitchen</Link>
-            <Link style={{ textDecoration: "none", marginLeft: "40px" }} to="/twoComp">Living Room</Link>
-            <Link style={{ textDecoration: "none", marginLeft: "40px" }} to="/threeComp">Master Bedroom</Link>
-            <Link style={{ textDecoration: "none", marginLeft: "40px" }} to="/fourComp">Wardrobe</Link>
-            <Link style={{ textDecoration: "none", marginLeft: "40px" }} to="/fiveComp">Dining Room</Link>
-            <Link style={{ textDecoration: "none", marginLeft: "40px" }} to="/sixComp">Kids Bedroom</Link>
-            <Link style={{ textDecoration: "none", marginLeft: "40px" }} to="/contact">Go Back</Link>
+            <Link className="nav-item" style={{ textDecoration: "none" }} to="/oneComp">Kitchen</Link>
+            <Link className="nav-item"style={{ textDecoration: "none", marginLeft: "40px" }} to="/twoComp">Living Room</Link>
+            <Link className="nav-item"style={{ textDecoration: "none", marginLeft: "40px" }} to="/threeComp">Master Bedroom</Link>
+            <Link className="nav-item"style={{ textDecoration: "none", marginLeft: "40px" }} to="/fourComp">Wardrobe</Link>
+            <Link className="nav-item"style={{ textDecoration: "none", marginLeft: "40px" }} to="/fiveComp">Dining Room</Link>
+            <Link className="nav-item"style={{ textDecoration: "none", marginLeft: "40px" }} to="/sixComp">Kids Bedroom</Link>
+            <Link className="nav-item"style={{ textDecoration: "none", marginLeft: "40px" }} to="/contact">Go Back</Link>
           </div>
         </div>
       </div>
 
 
-
+      
 
       {/* Hero Section */}
       <div className="OneCompHeroContainer">
         <div className="textPartOfOneComp">
           <p>Modular Kitchen Designs</p>
-          <p style={{ fontSize: "20px", width: "820px" }}>
+          <p id="temp10">
             We craft simple modular kitchen designs that are the perfect blend of functionality and style. Our curated, modular kitchen designs in India range from simple kitchens with minimal interiors to more elaborately designed kitchen interior designs. All our modern kitchen design ideas can be customised to fit your budget and existing space. We also have kitchen interior designs that work for all shapes: Be it a L-shaped kitchen, U-shaped kitchen or open kitchen design - crafting a kitchen interior design that works best for your home is our goal! Browse through our top kitchen designs to transform your space today.
           </p>
         </div>
