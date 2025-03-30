@@ -78,4 +78,4 @@ const Anchors = () => {
     )
 }
 
-export default Anchors
+export default Anchors;

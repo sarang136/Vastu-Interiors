@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import DiningCards from "../utils/DiningCards";
+import Anchors from "./Anchors";
 
 const FiveComp = () => {
   // State to store liked/unliked status for each item
@@ -20,16 +21,7 @@ const FiveComp = () => {
 
       <section id="FiveCompNavbar">
         <div className="navbarOfKitchenComp">
-          <div className="container">
-            <div className="anchors">
-              <div className="nothingDiv">
-                <Link style={{ textDecoration: "none" }} to="/">Home</Link>
-                <Link style={{ textDecoration: "none" }} to="/about">About Us</Link>
-                <Link style={{ textDecoration: "none" }} to="/projects">Projects</Link>
-                <Link style={{ textDecoration: "none" }} to="/contact">Design Ideas</Link>
-              </div>
-            </div>
-          </div>
+          <Anchors/>
         </div>
       </section>
 
@@ -55,7 +47,7 @@ const FiveComp = () => {
       <div className="OneCompHeroContainer">
         <div className="textPartOfOneComp">
           <p>Dining Room Designs & Décor</p>
-          <p style={{ fontSize: "20px", width: "820px" }}>
+          <p id="temp10">
             It is often believed that a family that eats together, stays together, thereby making the dining room one of the most indispensable areas in a house! Whether you are looking for a compact dining unit or a spacious one, here’s your daily dose of dining room interior design inspiration to start your home interior journey today. </p>
         </div>
       </div>
@@ -66,9 +58,9 @@ const FiveComp = () => {
           {DiningCards.map((DiningCards) => (
             <div className="Kitchen-Comp-Grids" key={DiningCards.id}>
 
-              <Link to={DiningCards.path}>
+            
                 <img src={DiningCards.image} alt="Design" />
-              </Link>
+              
 
               <p style={{ marginTop: "5px", marginLeft: "15px", fontWeight: "500" }}>
                 {DiningCards.name}

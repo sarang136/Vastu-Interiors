@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import KidsData from "../utils/KidsData";
+import Anchors from "./Anchors";
 
 const SixComp = () => {
   // State to store liked/unliked status for each item
@@ -25,16 +26,7 @@ const SixComp = () => {
 
       <section id="SixCompNavbar">
         <div className="navbarOfKidsComp">
-          <div className="container">
-            <div className="anchors">
-              <div className="nothingDiv">
-                <Link style={{ textDecoration: "none" }} to="/">Home</Link>
-                <Link style={{ textDecoration: "none" }} to="/about">About Us</Link>
-                <Link style={{ textDecoration: "none" }} to="/projects">Projects</Link>
-                <Link style={{ textDecoration: "none" }} to="/contact">Design Ideas</Link>
-              </div>
-            </div>
-          </div>
+          <Anchors/>
         </div>
       </section>
 
@@ -58,10 +50,10 @@ const SixComp = () => {
 
       {/* Hero Section */}
       <div className="OneCompHeroContainer">
-        <div className="textPartOfOneComp">
+        <div className="textPartOfOneComp ">
           <p>Kids Bedroom Designs</p>
           
-          <p style={{ fontSize: "20px", width: "820px" }}>
+          <p id="temp10">
           Designing your kid’s bedroom space can be an exciting time for you and your child. We’re certain you’ll find a healthy dose of inspiration and trending kid’s room designs that will match your child's personality! Our handpicked, affordable kid’s bedroom designs can be customised to suit your space requirements and your child’s imagination. Get in touch with our experts today to build a bedroom that your child will love. </p>
         </div>
       </div>
@@ -73,7 +65,7 @@ const SixComp = () => {
             <div className="Kitchen-Comp-Grids" key={KidsData.id}>
               
 
-              <Link to={KidsData.path}><img src={KidsData.image} alt="Design" /></Link>
+              <img src={KidsData.image} alt="Design" />
               <p style={{ marginTop: "5px", marginLeft: "15px", fontWeight: "500" }}>
                 {KidsData.name}
               </p>

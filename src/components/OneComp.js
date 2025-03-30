@@ -45,7 +45,7 @@ const OneComp = () => {
 
 
       
-
+      
       {/* Hero Section */}
       <div className="OneCompHeroContainer">
         <div className="textPartOfOneComp">
@@ -63,9 +63,9 @@ const OneComp = () => {
             <div className="Kitchen-Comp-Grids" key={resultKitchenData.id}>
 
 
-              <Link to={resultKitchenData.path}>
+              
                 <img src={resultKitchenData.image} alt="Design" />
-              </Link>
+              
               <p>
                 {resultKitchenData.name}
               </p>

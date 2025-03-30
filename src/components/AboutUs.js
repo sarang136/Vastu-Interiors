@@ -3,21 +3,14 @@ import { Link } from 'react-router-dom'
 import AboutUsMore from './AboutUsMore'
 import NumbersTalking from './NumbersTalking'
 import Footer from './Footer'
+import Anchors from './Anchors'
 
 const AboutUs = () => {
     return (
         <div className='ab-main-container'>
+            <Anchors/>
             <section id='ab-container'>
-                <div className='container'>
-                    <div className='anchors'>
-                        <div className='nothingDiv'>
-                            <Link style={{ textDecoration: "none" }} to="/">Home</Link>
-                            <Link style={{ textDecoration: "none" }} to="/about">About Us</Link>
-                            <Link style={{ textDecoration: "none" }} to="/projects">Projects</Link>
-                            <Link style={{ textDecoration: "none" }} to="/contact">Design Ideas</Link>
-                        </div>
-                    </div>
-                </div>
+                
 
                 <div className='Ab-hero'>
                     <p>View More</p>
