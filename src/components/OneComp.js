@@ -66,10 +66,10 @@ const OneComp = () => {
               <Link to={resultKitchenData.path}>
                 <img src={resultKitchenData.image} alt="Design" />
               </Link>
-              <p style={{ marginTop: "5px", marginLeft: "15px", fontWeight: "500" }}>
+              <p>
                 {resultKitchenData.name}
               </p>
-              <p style={{ marginTop: "5px", marginLeft: "15px", fontWeight: "500" }}>
+              <p>
                 Size: {resultKitchenData.size}
                 <button onClick={() => btnClick(resultKitchenData.id)}
                   style={{

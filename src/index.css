@@ -566,14 +566,14 @@
 
 
 .textPartOfOneComp p {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: 600;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .textPartOfOneComp {
-  /* margin: 60px 120px; */
+  margin: 60px 120px;
 }
 
 .nothingDiv2 a {
@@ -586,11 +586,20 @@
 }
 
 .Kitchen-Comp-Grids {
-  height: 500px;
-  width: 395px;
+  /* height: 500px;
+  width: 395px; */
   border-radius: 10px;
-  box-shadow: 0px 0px 6px #cacaca;
+  /* box-shadow: 0px 0px 6px #cacaca; */
   overflow: hidden;
+  padding: 20px;
+}
+.Kitchen-Comp-Grids p{
+  /* element.style  */
+    margin-top: 5px;
+    margin-left: 15px;
+    font-weight: 500;
+    overflow: auto;
+
 }
 
 .Kitchen-comp-gtc {
@@ -598,17 +607,20 @@
   grid-template-columns: repeat(3, auto);
   margin-top: 50px;
   grid-gap: 50px;
-
+  overflow-x: hidden; /* No scrolling on larger screens */
+  white-space: nowrap;
+  scroll-behavior: smooth;
 }
 
 .Kitchen-comp-grids-display {
   display: flex;
   justify-content: center;
   margin: 0px 120px;
+  margin-bottom: 50px;
 }
 
 .Kitchen-Comp-Grids img {
-  height: 350px;
+  height:75%;
   width: 100%;
   border-radius: 10px 10px 0px 0px;
   transition: 0.5s;
@@ -1115,10 +1127,12 @@
   margin-left: 10px;
   font-size: 15px;
 }
-#temp10{
-  font-size: 20px; 
-   width: 820px;
+
+#temp10 {
+  font-size: 20px;
+  width: 820px;
 }
+
 #tempplus {
   margin-left: 10px;
   font-size: 25px;
@@ -2942,4 +2956,47 @@ body {
     flex-shrink: 0;
     /* Prevents items from shrinking */
   }
+
+  .textPartOfOneComp {
+    margin: 0px 0px;
+  }
+
+  .textPartOfOneComp p {
+    font-size: 30px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  #temp10 {
+    font-size: 20px;
+    width: auto;
+    text-align: justify;
+    font-size: 13px;
+    padding: 0px 30px;
+}
+.Kitchen-comp-gtc{
+  grid-template-columns: repeat(1,auto);
+  /* display: flex; */
+  overflow-x: auto;
+  white-space: nowrap;
+  /* gap: 42px;
+  padding: 10px; */
+  scroll-behavior: smooth;
+}
+.Kitchen-Comp-Grids{
+  box-shadow: 0px 0px 0px #cacaca;
+}
+.Kitchen-comp-grids-display {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  margin: 0px;
+}
+.Kitchen-Comp-Grids p{
+  font-size: 12px;
+  padding: 2px 0px;
+      margin-left: 0px;
+     font-weight: lighter;
+}
 }
