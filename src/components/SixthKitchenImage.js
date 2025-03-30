@@ -22,53 +22,28 @@ const SixthKitchenImage = () => {
                 </div>
                 <div className='textDiv'>
 
-                    <div>
-                        <p className='pathofkitchenimage' style={{ fontSize: "13px", marginBottom: "30px" }}>home/DesignIdeas/KitchenDesigns/ <span style={{ color: "red" }}>Modern L-Shaped Kitchen Design with Aqua Green and White Suede Finish </span></p>
-                        <p style={{
-                            fontSize: "25px",
-                            fontWeight: "600",
-                            width: "420px"
-                        }}>{FirstKitchenImageData[5].name}</p>
-                        <p
-                            style={{
-                                fontSize: "18px",
-                                fontWeight: "600",
-                                marginTop: "20px"
+                    <div className='arrowTags'>
+                        {/* <Link ><p><span></span></p></Link> */}
+                        <Link to={"/fifthkitchenimage"}><p>&#8592;<span></span> Previous Image</p></Link>
+                        <Link to={"/seventhkitchenimage"}><p>Next Image &#8594;</p></Link>
+                    </div>
 
-                            }}> {FirstKitchenImageData[5].details}</p>
-                        <p style={{
-                            fontSize: "18px",
-                            // fontWeight:"600"
-                            marginTop: "20px"
-
-                        }}> <span style={{ fontWeight: "600", color: "" }}>Layout : </span> {FirstKitchenImageData[5].layout}</p>
-                        <p style={{
-                            fontSize: "18px",
-
-                            // fontWeight:"600"
-
-                        }}> <span style={{ fontWeight: "600" }}>Room Dimensions : </span>{FirstKitchenImageData[5].roomD}</p>
-                        <p style={{
-                            fontSize: "18px",
-                            // fontWeight:"600"
-
-                        }}> <span style={{ fontWeight: "600" }}>Style : </span>{FirstKitchenImageData[5].style}</p>
-                        <p style={{
-                            fontSize: "18px",
-                            // fontWeight:"600"
-
-                        }}> <span style={{ fontWeight: "600" }}>Color : </span>{FirstKitchenImageData[5].color}</p>
-                        <p style={{
-                            fontSize: "18px",
-
-                        }}> <span style={{ fontWeight: "600" }}>Special Features : </span>{FirstKitchenImageData[5].splFeatures}</p>
+                    <div className='fullTextDiv'>
+                        <p className='pathofkitchenimage' >home/DesignIdeas/KitchenDesigns/ <span style={{ color: "red" }}>Modern L-Shaped Kitchen Design with Aqua Green and White Suede Finish </span></p>
+                        <p id='temp11'>{FirstKitchenImageData[5].name}</p>
+                        <p id='temp12'> {FirstKitchenImageData[5].details}</p>
+                        <p id='temp13'> <span style={{ fontWeight: "600", color: "" }}>Layout : </span> {FirstKitchenImageData[5].layout}</p>
+                        <p id='temp13'> <span style={{ fontWeight: "600" }}>Room Dimensions : </span>{FirstKitchenImageData[5].roomD}</p>
+                        <p id='temp13'> <span style={{ fontWeight: "600" }}>Style : </span>{FirstKitchenImageData[5].style}</p>
+                        <p id='temp13'> <span style={{ fontWeight: "600" }}>Color : </span>{FirstKitchenImageData[5].color}</p>
+                        <p id='temp13'> <span style={{ fontWeight: "600" }}>Special Features : </span>{FirstKitchenImageData[5].splFeatures}</p>
                     </div>
                     <div className='arrowBtns'>
                         <div className='SecondKitgoNextbtn '>
-                            <Link to="/fourthkitchenimage"><p>Previous</p></Link>
+                            <Link to="/fifthkitchenimage"><p>Previous</p></Link>
                         </div>
                         <div className='SecondKitgoNextbtnRight '>
-                            <Link to="/sixthkitchenimage"><p>Next</p></Link>
+                            <Link to="/seventhkitchenimage"><p>Next</p></Link>
                         </div>
                     </div>
                 </div>

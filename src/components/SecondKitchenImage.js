@@ -20,14 +20,16 @@ const SecondKitchenImage = () => {
         <div className='imageDiv'>
           <img src={FirstKitchenImageData[1].image} alt="Design" />
         </div>
+
         <div className='arrowTags'>
           {/* <Link ><p><span></span></p></Link> */}
           <Link to={"/firstkitchenimage"}><p>&#8592;<span></span> Previous Image</p></Link>
           <Link to={"/thirdkitchenimage"}><p>Next Image &#8594;</p></Link>
         </div>
+
         <div className='textDiv'>
 
-          <div>
+          <div className='fullTextDiv'>
             <p className='pathofkitchenimage' >home/DesignIdeas/KitchenDesigns/ <span style={{ color: "red" }}>L-Shaped Minimalist Kitchen Design with Green Suede Finish
 
             </span></p>

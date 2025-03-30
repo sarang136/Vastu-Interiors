@@ -27,7 +27,7 @@ const FirstKitchenImage = () => {
         </div>
         <div className='textDiv'>
 
-          <div>
+          <div className='fullTextDiv nara'>
             <p className='pathofkitchenimage' >home/DesignIdeas/KitchenDesigns/ <span style={{ color: "red" }}>Straight Contemporary Kitchen Design with Berry Bunch High Gloss Laminate Finish</span></p>
             <p id='temp11'>{FirstKitchenImageData[0].name}</p>
             <p id='temp12'
