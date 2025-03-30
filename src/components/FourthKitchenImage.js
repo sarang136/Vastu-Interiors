@@ -63,19 +63,21 @@ const FourthKitchenImage = () => {
 
                         }}> <span style={{ fontWeight: "600" }}>Special Features : </span>{FirstKitchenImageData[3].splFeatures}</p>
                     </div>
-
+                    <div className='arrowBtns'>
+                        <div className='SecondKitgoNextbtn '>
+                            <Link to="/thirdkitchenimage"><p>Previous</p></Link>
+                        </div>
+                        <div className='SecondKitgoNextbtnRight '>
+                            <Link to="/fifthkitchenimage"><p>Next</p></Link>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             {
                 <Footer />
             }
-            <div className='SecondKitgoNextbtn '>
-                <Link to="/thirdkitchenimage"> <button className='arrow left'></button></Link>
-            </div>
-            <div className='SecondKitgoNextbtnRight '>
-                <Link to="/fifthkitchenimage"><button className='arrow right'></button></Link>
-            </div>
+
 
         </div>
     )
