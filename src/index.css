@@ -1686,7 +1686,20 @@
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
-
+.mid-div{
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+  background-color: #41303e;
+  color: white;
+  width: 100vw;
+  margin: 30px 0px;
+}
+#temp25{
+  font-size: 30px;
+}
 .headingHowitWorks {
   height: 100px;
   display: flex;
@@ -1717,9 +1730,50 @@
   padding-right: 270px;
 }
 .heroContent {
-  height: 70vh;
+  /* height: 70vh; */
+  padding: 50px;
 }
+.secondPageHow{
+  padding: 100px;
+  /* border: 1px solid black; */
+  display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.child-divs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* margin-top: 20px; */
+}
+.img-div{
+  width: 100%;
+  padding: 40px 100px;
+}
+.img-div img{
+  width: 100%;
+  /* padding: 20px; */
 
+}
+#temp26{
+  font-size: 40px;
+}
+#temp21{
+  font-size: 35px;
+  color: gray;
+  margin-bottom: 10px;
+}
+#temp22{
+  font-size: 25px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+#temp23{
+  font-size: 20px;
+ 
+}
 .sixImagesOfHero {
   /* border: 1px solid black; */
   display: flex;
@@ -2049,7 +2103,10 @@ th {
   align-items: center;
   height: 99.6%;
 }
-
+#temp24{
+  font-size: 20px;
+  margin-top: -90px;
+}
 .form2 input {
   margin: 20px 0px;
   width: 300px;
@@ -2861,7 +2918,9 @@ body {
     margin-left: 69px;
     margin-top: 10px;
   }
-
+  .form-container{
+    margin: 0px 30px;
+  }
   .form p {
     font-size: 25px;
     /* margin-top: 13px; */
@@ -3490,5 +3549,94 @@ font-size: 25px;
   text-align: left;
   margin: 10px;
   font-size: 12px;
+}
+.heroHowItWorks{
+  background-size: inherit;
+  background-image: url(/public/Images/freepik.avif);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.headingHowitWorks p{
+  font-size: 20px;
+}
+#temp24{
+  font-size: 10px;
+}
+#temp26{
+  font-size: 20px;
+}
+.heroContent{
+  padding: 0;
+}
+.sixImagesOfHero {
+  /* border: 1px solid black; */
+  display: flex
+;
+  justify-content: start;
+  align-items: center;
+  padding: 0px 60px;
+  margin-top: -50px;
+  overflow: scroll;
+  /* width: 100%; */
+  gap: 60px;
+}
+.ImagesOfHero img{
+  /* height: 10px;
+  width: 0px; */
+
+  border-radius: 100px;
+}
+.ImagesOfHero p {
+  margin-top: 10px;
+  font-size: 10px;
+}
+.btnOfHero button {
+  /* width: 150px; */
+  padding: 15px;
+  /* height: 50px; */
+  border-radius: 40px;
+  border: 0.2px solid gray;
+  background-color: #fd4d4d;
+  color: white;
+  font-size: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: 0.3s;
+}
+.child-divs{
+  flex-direction: column;
+}
+#temp21{
+  font-size: 20px;
+}
+#temp22 {
+  font-size: 15px;
+}
+#temp23{
+  font-size: 10px;
+} 
+.img-div {
+  padding: 40px;
+}
+.secondPageHow {
+  padding: 30px;
+}
+#temp25{
+  font-size: 15px;
+}
+.mid-div {
+  padding: 20px;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex
+;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
 }
 }

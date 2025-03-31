@@ -19,7 +19,7 @@ const HowItWorks = () => {
   return (
     <div className="howItWorks-container">
       <Anchors />
-      
+
       <div className="heroHowItWorks">
         {/* <p>uhhj</p> */}
       </div>
@@ -27,10 +27,10 @@ const HowItWorks = () => {
       <div className="heroContent">
         <div className="headingHowitWorks">
           <span></span>
-          <p style={{ fontSize: "40px" }}>Your dream home in 5 steps!</p>
+          <p id="temp26">Your dream home in 5 steps!</p>
         </div>
         <div className="headingHowitWorks">
-          <p style={{ fontSize: "20px", marginTop: "-90px" }}>
+          <p id="temp24">
             Looking to design your home interiors? Here's how you can get started.
           </p>
         </div>
@@ -90,401 +90,100 @@ const HowItWorks = () => {
       )}
 
 
-      <div className="secondPageofHowitWorks">
-
-        <div className="firstBoxofHow">
-
-          <div className="imageLeft">
-
+      <div className="secondPageHow">
+        <div className="child-divs">
+          <div className="img-div">
+            <img src="https://images.livspace-cdn.com/w:1920/plain/https://d3ai42rl8fy79o.cloudfront.net/galactus/templates/HIW_desktop_step_one_v1_1.jpg.1589200424956"></img>
           </div>
+          <div className="txt-div">
+            <p id="temp21">Meet your designer</p>
+            <p id="temp22">&#9679;It all begins with a form</p>
+            <p id="temp23">Let's get acquainted. The more we learn about you, the better we can design your home.</p>
 
-          <div className="TextLeft">
-            <p style={{
-              fontSize: "35px",
-              marginLeft: "15px"
-
-            }}>Meet your designer</p>
-            <p style={{
-              fontSize: "25px",
-              marginLeft: "30px",
-              marginTop: "20px"
-
-            }} > <span>&#9679;</span> It all begins with a form</p>
-            <p style={{
-              fontSize: "18px",
-              marginLeft: "30px",
-              marginTop: "5px"
-
-            }} >Let's get acquainted. The more we learn about you, the better we can design your home.</p>
-
-
-            <p style={{
-              fontSize: "25px",
-              marginLeft: "30px",
-              marginTop: "20px"
-
-            }} > <span>&#9679;</span> Get free consultation</p>
-            <p style={{
-              fontSize: "18px",
-              marginLeft: "30px",
-              marginTop: "5px"
-
-            }} >Talk to your designer and get personalised designs and quote for your dream home.</p>
+            <p id="temp22">&#9679;Get free consultation</p>
+            <p id="temp23">Talk to your designer and get personalized designs and a quote for your dream home, ensuring elegance, comfort, functionality.</p>
           </div>
+        </div>
 
+        <div className="child-divs">
+          <div className="img-div">
+            <img src="https://images.livspace-cdn.com/w:1920/plain/https://d3ai42rl8fy79o.cloudfront.net/galactus/templates/HIW_desktop_step_two_v1_1.jpg.1589200686140"></img>
+          </div>
+          <div className="txt-div">
+            <p id="temp21">Book Livspace</p>
+            <p id="temp22">&#9679;
+              Pay the booking amount to seal the deal</p>
+            <p id="temp23">Once you're happy with what we've proposed, pay 10% of the final quote or Rs.25000.</p>
+            <p id="temp22">&#9679;
+              Finalise your home design</p>
+            <p id="temp23"> Time to deep dive into the nitty-gritties and pick your favorite materials, finishes, textures, colors, patterns, fabrics, furniture.</p>
+          </div>
         </div>
 
 
-        {/* Second Box */}
-        <div className="firstBoxofHow">
-
-          <div className="imageLeft2">
-
+        <div className="child-divs">
+          <div className="img-div">
+            <img src="https://images.livspace-cdn.com/w:1920/plain/https://d3ai42rl8fy79o.cloudfront.net/galactus/templates/HIW_desktop_step_three_v1_1.jpg.1589200773045"></img>
           </div>
-
-          <div className="TextLeft">
-            <p style={{
-              fontSize: "35px",
-              marginLeft: "15px"
-
-            }}>Book Livspace</p>
-            <p style={{
-              fontSize: "25px",
-              marginLeft: "30px",
-              marginTop: "20px",
-
-
-            }} > <span>&#9679;</span> Pay the booking amount to seal the deal <span className="spanOfMilestone"
-            >MILESTONE</span>
+          <div className="txt-div">
+            <p id="temp21">Place the order
             </p>
-            <p style={{
-              fontSize: "18px",
-              marginLeft: "30px",
-              marginTop: "5px"
-
-            }} >Once you're happy with what we've proposed, pay 10% of the final quote or Rs.25000 (whichever is higher) to book us. </p>
-
-
-            <p style={{
-              fontSize: "25px",
-              marginLeft: "30px",
-              marginTop: "20px"
-
-            }} > <span>&#9679;</span> Finalise your home design</p>
-            <p style={{
-              fontSize: "18px",
-              marginLeft: "30px",
-              marginTop: "5px"
-
-            }} >It's time to deep dive into the nitty-gritties & pick your favorite materials, finishes, etc. Interim payments will be requested based on project scope, value, and timelines during the booking and design phase. </p>
-          </div>
-
-        </div>
-
-
-        {/* Third box */}
-
-        <div className="firstBoxofHow">
-
-          <div className="imageLeft3">
-
-          </div>
-
-          <div className="TextLeft">
-            <p style={{
-              fontSize: "35px",
-              marginLeft: "15px"
-
-            }}>Place the order</p>
-            <p style={{
-              fontSize: "25px",
-              marginLeft: "30px",
-              marginTop: "20px"
-
-            }} > <span>&#9679;</span>
-              Confirm your order with 50% payment   <span className="spanOfMilestone"
-              >MILESTONE</span>
-
+            <p id="temp22">&#9679;
+              Confirm your order with 50% payment
             </p>
-            <p style={{
-              fontSize: "18px",
-              marginLeft: "30px",
-              marginTop: "5px"
-
-            }} >Finalise the design by making a cumulative 50% payment, and your project is now off to a good start.</p>
-
-
-            <p style={{
-              fontSize: "25px",
-              marginLeft: "30px",
-              marginTop: "20px"
-
-            }} > <span>&#9679;</span> Work commences</p>
-            <p style={{
-              fontSize: "18px",
-              marginLeft: "30px",
-              marginTop: "5px"
-
-            }} >Civil work begins on site. Keep a tab on your project status on 'My Account'. </p>
+            <p id="temp23">Finalise the design by making a cumulative 50% payment</p>
+            <p id="temp22">&#9679;
+              Work commences</p>
+            <p id="temp23">Civil work begins. Stay updated, track progress, review timelines, manage documents & monitor project status conveniently.</p>
           </div>
-
         </div>
 
-        <div className="HalfWayBlock">
-
-          <div className="textTick"> <span>&#10004;</span>
-            You're half way there. Your orders are raised! </div>
+        <div className="mid-div">
+          <p id="temp25"> &#10004;You're half way there. Your orders are raised!</p>
         </div>
 
-
-        <div className="firstBoxofHow">
-
-          <div className="imageLeft4">
-
+        <div className="child-divs">
+          <div className="img-div">
+            <img src="https://images.livspace-cdn.com/w:1920/plain/https://d3ai42rl8fy79o.cloudfront.net/galactus/templates/HIW_desktop_step_four_v1_1.jpg.1589200866650"></img>
           </div>
-
-          <div className="TextLeft">
-            <p style={{
-              fontSize: "35px",
-              marginLeft: "15px"
-
-            }}>Final installations</p>
-            <p style={{
-              fontSize: "25px",
-              marginLeft: "30px",
-              marginTop: "20px"
-
-            }} > <span>&#9679;</span>
-              Pay 100% at intimation of material dispatch  <span className="spanOfMilestone"
-              >MILESTONE</span>
-
+          <div className="txt-div">
+            <p id="temp21">Final installations
             </p>
-            <p style={{
-              fontSize: "18px",
-              marginLeft: "30px",
-              marginTop: "5px"
-
-            }} >Once the materials are ready for dispatch, you'll be intimated. Make the balance payment and we'll head to the last leg of your project. </p>
-
-
-            <p style={{
-              fontSize: "25px",
-              marginLeft: "30px",
-              marginTop: "20px"
-
-            }} > <span>&#9679;</span> Installation</p>
-            <p style={{
-              fontSize: "18px",
-              marginLeft: "30px",
-              marginTop: "5px"
-
-            }} >Orders get delivered on-site and installation happens as per design </p>
-          </div>
-
-        </div>
-
-        <div className="HalfWayBlock">
-
-          <div className="textTick"> <span>&#10004;</span>
-
-            Hurrah! Complete payment has been made!</div>
-        </div>
-
-        <div className="firstBoxofHow">
-
-          <div className="imageLeft5">
-
-          </div>
-
-          <div className="TextLeft">
-            <p style={{
-              fontSize: "35px",
-              marginLeft: "15px"
-
-            }}>Move in!</p>
-            <p style={{
-              fontSize: "25px",
-              marginLeft: "30px",
-              marginTop: "20px",
-
-
-            }} > <span></span> Your dream home is now a reality! It's time to make new memories! Do avail the free professional photoshoot session of your #Vastuinteriors.
+            <p id="temp22">&#9679;
+              Pay 100% at intimation of material dispatch
             </p>
-
+            <p id="temp23">Once the materials are ready for dispatch, you'll be intimated. Make the balance payment and we'll head to the last leg of your project.</p>
+            <p id="temp22">&#9679;
+              Installation</p>
+            <p id="temp23">Orders get delivered on-site and installation happens as per design</p>
           </div>
-
         </div>
 
-
-        <div className="thirdPageOfHow">
-
-
-          <div className="table-container">
-            <p
-              style={{
-                fontSize: "40px",
-                fontWeight: "700",
-                color: "#474444",
-              }}
-            >
-              Understand your order types
-            </p>
-            <p
-              style={{
-                width: "700px",
-                marginTop: "20px",
-                fontSize: "20px",
-                textAlign: "center",
-              }}
-            >
-              We know our payments can seem complex. But they're really not. We've
-              staggered them through your home interiors journey, so that you make
-              small payments depending on how your project has progressed.
-            </p>
-            <table
-              style={{
-                marginTop: "30px",
-                borderCollapse: "collapse",
-                width: "80%",
-                textAlign: "center",
-              }}
-            >
-              <thead>
-                <tr>
-                  <th>Order type</th>
-                  <th>Overview of work involved</th>
-                  <th>Execution milestone (Make 100% payment)</th>
-                  <th>Handover</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Site Work</td>
-                  <td>Civil & MEP (Mechanical, Electrical & Plumbing)</td>
-                  <td>Before execution begins</td>
-                  <td>At site completion</td>
-                </tr>
-                <tr>
-                  <td>Custom Furniture</td>
-                  <td>Factory-made furniture pieces</td>
-                  <td>Before manufacturing starts</td>
-                  <td>Upon delivery to the site</td>
-                </tr>
-                <tr>
-                  <td>Modular Components</td>
-                  <td>Kitchen, wardrobes, storage units</td>
-                  <td>Before production begins</td>
-                  <td>At installation completion</td>
-                </tr>
-                <tr>
-                  <td>Loose Furniture</td>
-                  <td>Chairs, tables, sofas, decor</td>
-                  <td>Before procurement</td>
-                  <td>On delivery</td>
-                </tr>
-                <tr>
-                  <td>Final Touches</td>
-                  <td>Paint, wallpapers, accessories</td>
-                  <td>Before execution</td>
-                  <td>At project handover</td>
-                </tr>
-              </tbody>
-            </table>
-
-
-          </div>
-
-
-
-          <div className="theteamcontainer">
-            <div className="teamTitle">
-              <p style={{
-                fontSize: "40px"
-              }}>The Team</p>
-              <p style={{
-                fontSize: "25px"
-              }}>Get to know the team that'll be with you every step of the way.</p>
-            </div>
-
-
-            <div className="teamGridDisplay">
-              <div className="teamDivGTC">
-                {
-                  HowItWorksGridData.map((resHowitWorks) => (
-                    <div className="teamBoxes">
-                      <img src={resHowitWorks.image} />
-                      <p style={{
-                        fontSize: "25px",
-
-                      }}>{resHowitWorks.titleText}</p>
-                      <p style={{
-                        textAlign: "center"
-                      }}>{resHowitWorks.text}</p>
-                    </div>
-                  ))
-                }
-              </div>
-            </div>
-          </div>
-
-
-
-          <div className="downFrom">
-            <div className="ImagePartofForm ">
-
-            </div>
-            <div className="ActualFormOfRight">
-
-              <form className="form2">
-                <p style={{
-                  fontSize: "30px",
-                  width: "230px",
-                  textAlign: "center",
-                  color: "white"
-                }}>
-                  Designs for Every Budget
-                </p>
-                <p style={{
-                  fontSize: "18px",
-                  width: "330px",
-                  textAlign: "center",
-                  color: "white"
-                }}>Get your dream home today. Let our experts help you</p>
-                <input type="text" placeholder="Name"></input>
-                <input type="text" placeholder="Email id"></input>
-                <input type="text" placeholder="Mobile Number"></input>
-                <input style={{
-                  height: "100px"
-                }} type="text" placeholder="Property Name"></input>
-                <button onClick={() => {
-                  setSubmit("Submitting...")
-                  setTimeout(() => {
-                    setSubmit("Submit");
-                  }, 500)
-                }}>{submit}</button>
-
-
-
-                <p style={{
-                  fontSize: "15px",
-                  marginTop: "20px",
-                  marginLeft: "20px",
-                  width: "320px",
-                  textAlign: "center"
-                }}>By submitting this form, you agree to the <span style={{ color: "#ff5488" }} className="privateClass">privacy policy </span>& <span style={{ color: "#ff5488" }} className="privateClass">terms and conditions</span></p>
-              </form>
-
-            </div>
-          </div>
-
-          <div>
-            {<Footer />}
-          </div>
-
-
+        <div className="mid-div">
+          <p id="temp25"> &#10004;
+            Hurrah! Complete payment has been made!</p>
         </div>
+
+        <div className="child-divs">
+          <div className="img-div">
+            <img src="https://images.livspace-cdn.com/w:1920/plain/https://d3ai42rl8fy79o.cloudfront.net/galactus/templates/HIW_desktop_step_five_v1_1.jpg.1589200964847"></img>
+          </div>
+          <div className="txt-div">
+            <p id="temp21"> Move in!
+            </p>
+            
+            
+            <p id="temp23">Your dream home is now a reality! It's time to make new memories! Do avail the free professional photoshoot session of your #VastuDreamHome.</p>
+          </div>
+        </div>
+
       </div>
 
+
+
+
+
+      <Footer />
     </div>
   );
 }

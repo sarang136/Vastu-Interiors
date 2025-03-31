@@ -49,7 +49,7 @@ const Anchors = () => {
                 <Link to="/offering">OFFERING</Link>
                 <Link to="/referfriend">REFER A FRIEND </Link>
                 <Link id='designI' to="/contact">DESIGN IDEAS</Link>
-                <Link id='designI' to="/about">ABOUT US</Link>
+                {/* <Link id='designI' to="/about">ABOUT US</Link> */}
                 <Link id='designI' to="/projects">PROJECTS</Link>
             </div>
         </div>

@@ -118,13 +118,13 @@ const ModularJourney = () => {
             onClick={() => setActiveSection("edu")}
             className={activeSection === "edu" ? "active" : ""}
           >
-            Education
+           Vertical Force Test
           </button>
           <button
             onClick={() => setActiveSection("projects")}
             className={activeSection === "projects" ? "active" : ""}
           >
-            Projects
+           Drawer Cyclic Test
           </button>
 
         </div>
