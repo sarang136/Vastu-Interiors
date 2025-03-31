@@ -3555,6 +3555,7 @@ font-size: 25px;
   background-image: url(/public/Images/freepik.avif);
   background-repeat: no-repeat;
   background-size: contain;
+  background-attachment: fixed;
 }
 .headingHowitWorks p{
   font-size: 20px;
