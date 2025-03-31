@@ -84,6 +84,9 @@ const Navbar = () => {
                     <p style={{ textAlign: "justify" }}> Vastu Interiors was founded in 2001 by Sawarmal Jangid with a vision to transform living spaces into aesthetically pleasing and functional environments. With a deep-rooted passion for craftsmanship and design, he established the company to provide budget-friendly and customized interior solutions for homes and commercial spaces. The foundation of Vastu Interiors was built on years of expertise in traditional woodworking and modern interior design techniques, ensuring a perfect blend of heritage and innovation. Starting as a small workshop, the company gradually expanded its operations, gaining a reputation for delivering high-quality interiors that cater to clients' unique tastes and preferences. Over the years, Vastu Interiors has grown into a trusted name in the industry, dedicated to fulfilling people's dreams of owning beautifully designed spaces that reflect their personality and lifestyle.</p>
                 </div>
             </div>
+
+
+
             <div className="wherewework">
                 <div className="text-heading-primary">
                     <p>Designing homes across India</p>
@@ -123,6 +126,29 @@ const Navbar = () => {
                 </div>
 
 
+            </div>
+
+
+            <div className="foundersDiv">
+<div className="sawarmal">
+    <div className="image"><img src="https://images.livspace-cdn.com/w:640/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/about-us-1629737930-WrXkD/mobile-1629737947-8cnvs/founders-1629749026-4Dd76/anuj-mobile-1632298064-KVsoM.jpg"></img></div>
+    <div className="textt">
+        <h1>Sawarmal Jangid</h1>
+    <h3>founder</h3>
+    <p>Sawarmal Jangid, the visionary behind Vastu Interiors, crafts dream homes with precision and passion, turning ideas into reality.</p>
+        
+    </div>
+</div>
+
+<div className="sawarmal">
+    <div className="image"><img src="https://images.livspace-cdn.com/w:640/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/about-us-1629737930-WrXkD/mobile-1629737947-8cnvs/founders-1629749026-4Dd76/anuj-mobile-1632298064-KVsoM.jpg"></img></div>
+    <div className="textt">
+        <h1>Sandeep Jangid</h1>
+    <h3>Co-founder </h3>
+    <p>Sandeep Jangid, the strategist of Vastu Interiors, blends creativity with practicality, ensuring every home is as functional  .</p>
+        
+    </div>
+</div>
             </div>
 
 
