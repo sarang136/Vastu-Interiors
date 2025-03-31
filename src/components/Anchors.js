@@ -15,9 +15,9 @@ const Anchors = () => {
                     <div className='nothingDiv'>
 
                         <Link style={{ textDecoration: "none" }} to="/">HOME</Link>
-                        <Link style={{ textDecoration: "none" }} to="/about">ABOUT US</Link>
                         <Link style={{ textDecoration: "none" }} to="/projects">PROJECTS</Link>
                         <Link style={{ textDecoration: "none" }} to="/contact">DESIGN IDEAS</Link>
+                        <Link style={{ textDecoration: "none" }} to="/connectus">CONNECT US</Link>
 
                         {/* <Link style={{ textDecoration: "none" }} to="/howitworks">How It Works</Link>
                         <Link style={{ textDecoration: "none", marginLeft: "40px" }} to="/modularjourney">A Modular Journey</Link>

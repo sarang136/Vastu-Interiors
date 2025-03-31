@@ -1,31 +1,38 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
         <div className='footer-container'>
-            <div className='footertext'>
-                <p>Vastu Interiors</p>
+            <div className='about-footer'>
+                <h1 id='temp19'>Contacts</h1>
+                <hr></hr>
+                <p id='temp19'>darshan Vihar, Behind Suzuki Showroom, Beed bypass road, Chhatrapati SambhajiNagar (Aurangabad)</p>
+                <p id='temp19'>9665150750</p>
+                <p id='temp19'>vastuinteriors@gmail.com</p>
+                <p id='temp19'>© 2024 vastuinteriors.com All Rights Reserved</p>
             </div>
 
-            <div className='contactsGridsDisplay'>
-                <div className='contactsGridsGtc'>
-                    <div className='mainGrids'>
-                        <p style={{ marginTop: '20px', marginLeft: "20px" }}>Email id : sandeepjangid@gmail.com</p>
-                        <p style={{ marginTop: '0px', marginLeft: "20px" }}>Contact Number : 9665150750</p>
-                        <div className='scHandles'>
-                            <div className='logos'><a href='https://www.livspace.com/in/about-us'><img src='Images/insta.webp'></img></a></div>
-                            <div className='logos' style={{ marginLeft: "-40px", width: "90%" }}><a href='https://www.livspace.com/in/about-us'><img src='Images/yt.webp'></img></a></div>
-                            <div className='logos' style={{ marginLeft: "-32px", width: "80%", height: "35px", marginTop: "9px" }}><a href='https://www.livspace.com/in/about-us'><img src='Images/fb.webp'></img></a></div>
-                        </div>
-                    </div>
-                    <div className='mainGrids locations'>
-                        <p>Locations - Mumbai, Pune, Nagpur, Nashik, Aurangabad, Solapur, Kolhapur, Thane, Amravati, Ratnagiri, Jalgaon, Latur, Satara, Sangli, Ahmednagar, Chandrapur, Nanded, Dhule, Bhiwandi, and Akola </p>
-                    </div>
-                </div>
-               
+            <div className='about-footer'>
+                <h1 id='temp19'>Information</h1>
+                <hr></hr>
+                <Link style={{ textDecoration: "none" }} to="/">HOME</Link>
+                <Link style={{ textDecoration: "none" }} to="/projects">PROJECTS</Link>
+                <Link style={{ textDecoration: "none" }} to="/contact">DESIGN IDEAS</Link>
+                <Link style={{ textDecoration: "none" }} to="/connectus">CONNECT US</Link>
+                <Link to="/consultus">CONSULT US </Link>
+                <Link to="/howitworks">HOW IT WORKS </Link>
+                <Link to="/modularjourney">MODULAR JOURNEY </Link>
+                <Link to="/offering">OFFERING</Link>
             </div>
-            <div className='copyright'>
-            <p>© 2025 VastuInteriors.com All Rights Reserved</p>
+
+            <div className='about-footer media'>
+                <h1 id='temp19'>Media Handles</h1>
+                <hr></hr>
+               <p id='temp19'>instagram</p>
+               <p id='temp19'>youtube</p>
+               <p id='temp19'>facebook</p>
+               <p id='temp19'>LinkedIn</p>
             </div>
         </div>
     )

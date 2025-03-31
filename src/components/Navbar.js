@@ -8,6 +8,7 @@ import ClientSayData from "../utils/ClientSayData";
 
 
 import { useEffect, useState } from "react";
+import Footers from "./Footer";
 
 
 const Navbar = () => {
@@ -165,7 +166,8 @@ const Navbar = () => {
             </div>
 
             <div>
-                <Footer />
+                {/* <Footer /> */}
+                <Footer/>
             </div>
         </section>
     );

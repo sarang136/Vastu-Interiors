@@ -10,23 +10,11 @@ const ModularJourney = () => {
   return (
     <div className='Modular-container'>
       {<Anchors />}
-    
+
 
       <div className='hero-Modular'>
-        <p style={{
-          fontSize: "70px",
-          fontWeight: "600",
-          color: "white",
-          marginTop: "250px",
-          marginLeft: "450px"
-        }}>Crafting Modular Designs</p>
-        <p style={{
-          fontSize: "35px",
-          // marginTop:"100px",
-          marginLeft: "340px",
-          color: "white",
-          fontWeight: "700"
-        }}>A journey through our revolutionary design-to-intallation process</p>
+        <p id='forStyling1'>Crafting Modular Designs</p>
+        <p id='forStyling2'>A journey through our revolutionary design-to-intallation process</p>
 
         <div className='modularBtn'>
           <Link to={"/consultus"}><button>Getstarted</button></Link>
@@ -43,7 +31,7 @@ const ModularJourney = () => {
 
       <div className='thirdPageOfModular'>
         <div className='Text-for-div '>
-          <p style={{ fontSize: "40px", width: "900px", textAlign: "center" }}>India’s only automated modular design to manufacturing to installation process</p>
+          <p >India’s only automated modular design to manufacturing to installation process</p>
         </div>
 
 
@@ -88,7 +76,7 @@ const ModularJourney = () => {
           </div>
 
           <div className='textBoxy boxy'>
-            <p style={{ fontSize: "30px", color: "gray" }}>What sets DuraBuild apart</p>
+            <p style={{ fontSize: "20px", color: "gray" }}>What sets DuraBuild apart</p>
             <p><span>● </span> Advance connector mechanism for robust cabinet construction.</p>
             <p><span>● </span> Chipboard screws with PVC sockets ensure durability.</p>
             <p><span>● </span> Soft-closing hinges reduce vibrations and extend cabinet life.</p>
@@ -97,11 +85,12 @@ const ModularJourney = () => {
           </div>
         </div>
 
+<hr></hr>
 
         <div className='dusraBox'>
           <div className='textDursaBox boxy'>
-            <p style={{ fontSize: "30px", color: "gray", marginLeft: "-170px" }}>Warranty built upon confidence</p>
-            <p style={{ fontSize: "20px", width: "630px", marginLeft: "53px", textAlign: "justify" }}>Our modular products come with a 10-year warranty³ because of the confidence we have in our DuraBuild™ Cabinets. What are DuraBuild™ Cabinets? To Livspace, they are like the kids we are very proud of. The result of extensive R&D, they are the real heroes of our modular solutions offering unparalleled strength and durability.</p>
+            <p id='temp14'>Warranty built upon confidence</p>
+            <p id='temp15'>Our modular products come with a 10-year warranty³ because of the confidence we have in our DuraBuild™ Cabinets. What are DuraBuild™ Cabinets? To Livspace, they are like the kids we are very proud of. The result of extensive R&D, they are the real heroes of our modular solutions offering unparalleled strength and durability.</p>
           </div>
           <div className='ImageDusraBox boxy'>
             <img src='https://images.livspace-cdn.com/w:164/h:164/dpr:2/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/design-to-installtion-1616405714-HYWaQ/warranty-confidence-1616420841-sCLwo/warranty-confidence-v2-d-1624541291-F9GjA.png' />
@@ -112,34 +101,34 @@ const ModularJourney = () => {
 
 
       <div className='fifthPageOfModular'>
-<div className='headindPartofModular'>
-<p style={{fontSize:"40px"}}>Tested to be the best</p> 
-<p style={{fontSize:"18px", paddingRight:"270px"}}>A lot of our success in modular strength hinges on testing our cabinets. Completely assembled cabinets are mercilessly subject to severe wear and tear as per European standards at independent⁴ labs. Conquering these tests, our cabinets prove themselves and earn the title – DuraBuild.</p>
-</div>
+        <div className='headindPartofModular'>
+          <p id='temp16'>Tested to be the best</p>
+          <p id='temp17'>A lot of our success in modular strength hinges on testing our cabinets. Completely assembled cabinets are mercilessly subject to severe wear and tear as per European standards at independent⁴ labs. Conquering these tests, our cabinets prove themselves and earn the title – DuraBuild.</p>
+        </div>
 
 
-      <div className="buttons">
-        <button
-          onClick={() => setActiveSection("exp")}
-          className={activeSection === "exp" ? "active" : ""}
-        >
-          Drawer Cyclic Test
-        </button>
-        <button
-          onClick={() => setActiveSection("edu")}
-          className={activeSection === "edu" ? "active" : ""}
-        >
-          Education
-        </button>
-        <button
-          onClick={() => setActiveSection("projects")}
-          className={activeSection === "projects" ? "active" : ""}
-        >
-          Projects
-        </button>
-        
-      </div>
-      <span style={{width:"73%", border:"1px solid gray", marginLeft:"-153px"}}></span>
+        <div className="buttons">
+          <button
+            onClick={() => setActiveSection("exp")}
+            className={activeSection === "exp" ? "active" : ""}
+          >
+            Drawer Cyclic Test
+          </button>
+          <button
+            onClick={() => setActiveSection("edu")}
+            className={activeSection === "edu" ? "active" : ""}
+          >
+            Education
+          </button>
+          <button
+            onClick={() => setActiveSection("projects")}
+            className={activeSection === "projects" ? "active" : ""}
+          >
+            Projects
+          </button>
+
+        </div>
+        <span style={{ width: "100%", border: "1px solid gray" }}></span>
 
 
         <div className="content">
@@ -155,11 +144,11 @@ const ModularJourney = () => {
                   playsInline
                 >
                   <source src={`${process.env.PUBLIC_URL}/Images/drawer.mp4`} type="video/mp4" />
-                 
+
                 </video>
               </div>
               <div className="FifthPageTextBox">
-                <p style={{ fontSize: "35px", fontWeight: "bold" }}>Drawer Cyclic Test</p>
+                <p id='temp18' >Drawer Cyclic Test</p>
                 <p>Ensures extended life for your cabinet drawers.</p>
               </div>
             </div>
@@ -170,53 +159,53 @@ const ModularJourney = () => {
 
 
           {activeSection === "edu" && <div className="section">
-             <div className="FifthPageImageBox2">
-                <video
-                  width="100%"
-                  height="auto"
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                >
-                  <source src={`${process.env.PUBLIC_URL}/Images/shutter.mp4`} type="video/mp4" />
-                 
-                </video>
-              </div>
-              <div className="FifthPageTextBox">
-                <p style={{ fontSize: "35px", fontWeight: "bold" }}>Shutter Cyclic Test</p>
-                <p>Ensures long life for your shutters.</p>
-              </div></div>}
+            <div className="FifthPageImageBox">
+              <video
+                width="100%"
+                height="auto"
+                autoPlay
+                loop
+                muted
+                playsInline
+              >
+                <source src={`${process.env.PUBLIC_URL}/Images/shutter.mp4`} type="video/mp4" />
+
+              </video>
+            </div>
+            <div className="FifthPageTextBox">
+              <p id='temp18'>Shutter Cyclic Test</p>
+              <p>Ensures long life for your shutters.</p>
+            </div></div>}
 
 
 
 
 
 
-          {activeSection === "projects" && <div className="section">  <div className="FifthPageImageBox3">
-                <video
-                  width="100%"
-                  height="auto"
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                >
-                  <source src={`${process.env.PUBLIC_URL}/Images/verical.mp4`} type="video/mp4" />
-                
-                </video>
-              </div>
-              <div className="FifthPageTextBox">
-                <p style={{ fontSize: "35px", fontWeight: "bold" }}>Vertical Force Test</p>
-                <p>Ensures superior hinge quality and avoids accidents.</p>
-              </div> </div>}
+          {activeSection === "projects" && <div className="section">  <div className="FifthPageImageBox">
+            <video
+              width="100%"
+              height="auto"
+              autoPlay
+              loop
+              muted
+              playsInline
+            >
+              <source src={`${process.env.PUBLIC_URL}/Images/verical.mp4`} type="video/mp4" />
+
+            </video>
+          </div>
+            <div className="FifthPageTextBox">
+              <p id='temp18'>Vertical Force Test</p>
+              <p>Ensures superior hinge quality and avoids accidents.</p>
+            </div> </div>}
         </div>
 
       </div>
 
-<div>
-  <Footer/>
-</div>
+      <div>
+        <Footer />
+      </div>
     </div>
 
 

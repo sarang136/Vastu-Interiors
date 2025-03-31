@@ -298,23 +298,62 @@
 }
 
 .footer-container {
-  height: 50vh;
+  height: 70vh;
   background-color: #41303e;
   color: #9f9999;
+  display: flex;
+  justify-content: center;
+  padding: 20px 100px;
+  /* justify-content: ; */
   /* width: 100%; */
   /* margin-top: 60px; */
 }
-
+.about-footer{
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  /* justify-content: left; */
+  padding: 0px 40px;
+  border: 1px solid #5f5f5f;
+}
+.about-footer hr{
+  /* width: 100px; */
+  border: 0.5px solid #444040;
+  /* margin: ; */
+  /* width: 70%; */
+  /* justify-self: center; */
+  /* padding: 0px 100px; */
+}
+.about-footer a{
+  margin: 10px;
+  /* border: 1px solid #514b4b; */
+  color: rgb(183, 183, 183);
+  text-decoration: none;
+  text-align: left;
+}
+.about-footer a:hover{
+  color: white;
+}
+.media p:hover{
+  color: white;
+}
 .footertext {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 50px;
+ 
+}
+#temp19{
+  text-align: left;
+  margin: 20px;
 }
 
 .footertext p {
   font-size: 20px;
   margin-top: 20px;
+  text-align: left;
+ 
 }
 
 .mainGrids {
@@ -1635,7 +1674,9 @@
   padding-top: 80px;
   margin-left: 95px;
 }
-
+#temp18{
+  font-size: 35px;
+}
 .heroHowItWorks {
   height: 40vh;
   padding-top: 200px;
@@ -1668,7 +1709,13 @@
   width: 360px;
 
 }
-
+#temp16 {
+  font-size: 40px;
+}
+#temp17{
+  font-size: 18px;
+  padding-right: 270px;
+}
 .heroContent {
   height: 70vh;
 }
@@ -2031,16 +2078,32 @@ th {
   margin-left: 102px;
 
 }
-
+#forStyling1{
+    font-size: 70px;
+    width: fit-content;
+    font-weight: 600;
+    color: white;
+    /* margin-top: 250px; */
+    /* margin-left: 450px; */
+ 
+}
+#forStyling2{
+  width: fit-content;
+  
+  font-size: 35px;
+    font-weight: 600;
+    color: white;
+ 
+}
 .hero-Modular {
   height: 75vh;
-  padding-top: 100px;
+  /* padding: 190px; */
   background-image: url(/public/Images/ModularBack.avif);
-  /* display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; */
-  /* padding-top: 30px; */
+  align-items: center; 
+  /* padding-top: 30px;
   background-attachment: fixed;
   box-shadow: inset 0 0 200px rgba(0, 0, 0, 1.7);
 }
@@ -2108,31 +2171,41 @@ th {
 }
 
 .secondPageofModular {
-  height: 40vh;
+  /* height: 40vh; */
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 0px;
+  padding: 100px;
 }
 
 .secondPageofModular p {
   text-align: center;
   color: black;
-  width: 900px;
+  width: 100%;
   font-size: 25px;
+  padding: 0px 120px;
 }
 
 .thirdPageOfModular {
-  /* height: 100vh; */
-  /* border: 2px solid black; */
-  padding: 100px 0px;
-  background-color: #f5f4f5;
+      /* height: 100vh; */
+    /* border: 2px solid black; */
+    padding: 100px 0px;
+    background-color: #f5f4f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .Text-for-div {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.Text-for-div  p{
+  font-size: 40px;
+  padding: 0px 270px;
+  text-align: center;
 }
 
 .ThreeImagesinGrid {
@@ -2152,17 +2225,20 @@ th {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 300px;
-  width: 300px;
+  /* height: 300px; */
+  padding: 50px;
+  /* width: 300px; */
+  
   /* border: 1px solid black; */
 }
 
 .fourthPageOfModular {
   /* height:100vh ; */
+  padding: 100px;
 }
 
 .pehlaBox video {
-  height: 105%;
+  height: 100%;
   width: 100%;
   /* display: flex;
 /* justify-content: center; */
@@ -2182,26 +2258,31 @@ th {
   width: fit-content;
   margin-top: 10px;
   font-size: 20px;
-  width: 515px;
+  width: 100%;
 }
 
 .pehlaBox {
   /* padding: 100px 0px; */
-  margin-top: 100px;
+  /* margin-top: 100px; */
   display: flex;
   justify-content: center;
 }
 
 .boxy {
-  padding: 0px 50px;
-  width: 580px;
-  height: 400px;
+  padding: 0px 30px;  
+  /* width: 580px; */
+  /* height: 400px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .dusraBox {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   display: flex;
   justify-content: center;
+  padding: 100px;
+  /* gap: 260px; */
   align-items: center;
 }
 
@@ -2231,7 +2312,7 @@ th {
   align-items: center;
   flex-direction: column;
   background-color: #f3f3f3;
-  padding: 50px 0px;
+  padding: 100px;
 }
 
 .section {
@@ -2239,17 +2320,19 @@ th {
   justify-content: center;
   /* margin-left: -160px; */
   align-items: center;
+  padding: 20px;
+  gap: 50px;
 }
 
 .FifthPageImageBox video {
-  height: 400px;
-  width: 580px;
-  margin-left: -160px;
+  /* height: 400px; */
+  /* width: 580px; */
+  /* margin-left: -160px;  */
 
 }
 
 .FifthPageTextBox {
-  padding-left: 20px;
+  /* padding-left: 20px; */
 }
 
 .FifthPageTextBox p {
@@ -2261,21 +2344,22 @@ th {
   /* border: 2px solid black; */
   padding: 20px;
   display: flex;
+  width: 100%;
   /* background-color: #f5f4f5; */
-  margin-left: -585px;
-  margin-top: 40px;
+  /* margin-left: -585px; */
+  /* margin-top: 40px; */
   /* padding: 10px; */
 }
 
 .buttons button {
   box-shadow: 0px 2px 4px #b8b8b8;
-  width: 200px;
+  width: fit-content;
   /* border: 0.2px solid gray; */
   background-color: white;
   border-radius: 20px;
   /* height: 30px; */
   border: 1px solid #f3e8e8;
-  padding: 10px;
+  padding: 10px 40px;
   margin: 0px 20px;
   font-size: 20px;
   transition: 0.3s;
@@ -2283,33 +2367,27 @@ th {
 
 .buttons button:hover {
   /* border-bottom: 1px solid red; */
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
   color: red;
 }
 
 .active {
   color: red;
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
 }
 
 .headindPartofModular {
   /* border: 1px solid black; */
-  padding: 0px 130px;
+  /* padding: 0px 130px; */
+}
+.FifthPageImageBox{
+  /* padding: 100px; */
+}
+.FifthPageImageBox video{
+/* border: 2px solid black; */
 }
 
-.FifthPageImageBox2 video {
-  height: 400px;
-  width: 580px;
-  margin-left: -300px;
 
-}
-
-.FifthPageImageBox3 video {
-  height: 400px;
-  width: 580px;
-  margin-left: -110px;
-
-}
 
 * {
   margin: 0;
@@ -2451,7 +2529,11 @@ body {
   font-size: 25px;
   font-weight: 700;
 }
-
+.textDursaBox{
+  font-size: 20px;
+  color: black;
+  /* margin-left: -170px; */
+}
 #designI {
   display: none;
 }
@@ -2701,10 +2783,7 @@ body {
     padding: 40px;
   }
 
-  .footer-container {
-    height: auto;
-    padding: 20px;
-  }
+
 
   .footertext p {
     font-size: 12px;
@@ -3259,5 +3338,157 @@ flex-direction: column;
 }
 .client-says-display{
 padding: 10px;
+}
+#forStyling1 {
+  color: #f1d4d4;
+  font-size: 30px;
+ 
+}
+#forStyling2 {
+  color: #f1d4d4;
+  width: fit-content;
+  font-size: 15px;
+  text-align: center;
+}
+.hero-Modular {
+  position: relative;
+  padding: 20px;
+  height: 50vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-Modular::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for desired opacity */
+  z-index: 1;
+}
+
+.hero-Modular * {
+  position: relative;
+  z-index: 2; /* Ensures all child elements are above the overlay */
+}
+
+.modularBtn button{
+  padding: 10px 40px;
+  font-size: 15px;
+  /* font-weight: lighter; */
+}
+.secondPageofModular p {
+  text-align: center;
+  color: black;
+  width: 100%;
+  font-size: 15px;
+  padding: 0;
+  text-align: justify;
+}
+.secondPageofModular{
+  padding: 30px;
+}
+.Text-for-div  p{
+  padding: 0px 70px;
+  font-size: 15px;
+}
+.thirdPageOfModular {
+  padding: 30px 0px ;
+}
+.ThreeImagesinGrid {
+  grid-template-columns: repeat(1,auto);
+}
+.ThreeImages{
+  border: 1px solid #e0dddd;
+  border-radius: 10px;
+}
+.pehlaBox {
+  flex-direction: column  ;
+}
+.textBoxy p{
+  width: fit-content;
+  font-size: 14px;
+}
+.fourthPageOfModular {
+  padding: 10px;
+}
+.dusraBox{
+  padding: 0px 20px;
+  gap: 20px;
+  flex-direction: column-reverse;
+}
+.textDursaBox{
+  font-size: 15px;
+  /* margin: 20px 0px; */
+  text-align: justify;
+  /* padding: 10px; */
+}
+#temp14{
+  color: gray;
+}
+#temp15{
+  margin-top: 10px;
+}
+#temp17{
+  /* padding-right:0 ; */
+  padding-right: 0;
+  font-size: 15px;
+  text-align: justify;
+  margin-top: 20px;
+  padding: 0px 20px;
+}
+.headindPartofModular {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+}
+.fifthPageOfModular {
+  padding: 30px;
+}
+#temp16 {
+font-size: 25px;
+}
+.buttons {
+  width: 90%;
+}
+.buttons button{
+  padding: 5px 10px;
+  font-size: 10px;
+  margin: 0px 5px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.section{
+  flex-direction: column;
+  gap: 20px;
+}
+#temp18 {
+  font-size: 20px;
+}
+.FifthPageTextBox p {
+  font-size: 15px;
+}
+.FifthPageTextBox{
+  width: 100%;
+}
+.boxy {
+  padding: 20px 30px;
+}
+.about-footer {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  /* justify-content: left; */
+  padding: 0px 10px;
+  border: 1px solid #5f5f5f;
+}
+#temp19 {
+  text-align: left;
+  margin: 10px;
+  font-size: 12px;
 }
 }
