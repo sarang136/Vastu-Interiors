@@ -2160,8 +2160,9 @@ th {
   flex-direction: column;
   justify-content: center;
   align-items: center; 
-  /* padding-top: 30px;
   background-attachment: fixed;
+  /* padding-top: 30px;
+  
   box-shadow: inset 0 0 200px rgba(0, 0, 0, 1.7);
 }
 
@@ -2593,6 +2594,161 @@ body {
 }
 #designI {
   display: none;
+}
+.firstPageoffer{
+  height: 100vh;
+  /* padding: 250px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(https://images.livspace-cdn.com/w:1920/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/livspace-vesta-1615288282-wkMjI/banner-1615288298-M39ju/updated-1632133477-mccfx/vesta-banner-trusted-desktop-1632133728-Z3ZWu.jpg);
+  box-shadow: inset 0px -153px 130px black;
+  /* background-repeat: no-repeat; */
+  /* background-size: 100%; */
+}
+
+
+#temp27{
+  /* margin: 60px; */
+  font-size: 70px;
+  color: white;
+  margin-top: 400px;
+  font-weight: 600;
+}
+.secondPageOffer
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0px;
+}
+
+#temp28{
+  font-size: 40px;
+  color: #434040;
+  font-weight: 700;
+}
+#temp29{
+  font-size: 22px;
+  text-align: center;
+  padding: 20px 350px;
+}
+.btnn button{
+  padding: 12px 50px;
+  border-radius: 30px;
+  background-color: #f94f4f;
+  border: 1px solid #f94f4f;
+  color: white;
+  font-size: 20px;
+}
+.thirdPageOffer{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 20px;
+  padding: 0px 120px ;
+  background-color: #f5f4f5;
+  padding: 100px;
+}
+.BoxesOfferContainer{
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 20px;
+  /* border: 1px solid black; */
+ 
+}
+.BoxesOffer img{
+height: 70%;
+width: 100%;
+}
+.BoxesOffer{
+  /* padding: 20px 10px; */
+  overflow: hidden;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 0px 5px #b7b4b4;
+}
+#temp30{
+  padding: 0px 10px;
+}
+#temp31{
+  padding: 0px 10px;
+}
+.fourthPageOffer{
+  display: flex;
+  flex-direction: row;
+  /* height: 80vh; */
+  
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.buttonsOffer{
+  display: flex;
+  flex-direction: column;
+  margin-top: -130px;
+  
+}
+#temp38{
+  margin-top: 50px;
+  font-size: 12px;
+}
+.buttonsOffer button{
+ padding: 30px;
+ font-size: 20px;
+ margin: 10px;
+ border-radius: 5px;
+ background-color: white;
+ border: 1px solid white;
+ box-shadow: 0px 3px 5px #e2e2e2;
+ transition: 0.3s ;
+ text-align: left;
+}
+.buttonsOffer button:hover{
+background-color: #f6f6f6;
+}
+.bookingSection p{
+  margin: 10px;
+}
+#temp32{
+  font-size: 40px;
+  font-weight: 600;
+  color: #5d5b5b;
+}
+#temp33{
+  font-size: 20px;
+}
+#temp34{
+  font-size: 25px;
+}
+#temp35{
+  font-size: 20px;
+}
+.fourthPageContainer{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding: 20px 180px;
+}
+.fourthPageContainer p{
+  /* width: 100%; */
+  
+}
+
+#temp36{
+  font-size: 40px;
+  font-weight: 700;
+  color: #5d5b5b;
+}
+#temp37{
+  font-size: 25px;
+  font-weight: lighter;
 }
 
 @media (max-width: 768px) {
@@ -3639,5 +3795,93 @@ font-size: 25px;
   justify-content: center;
   align-items: center;
   z-index: 1000;
+}
+.firstPageoffer {
+  height: 50vh;
+}
+#temp27 {
+  /* margin: 60px; */
+  font-size: 25px;
+  color: white;
+  margin-top: 250px;
+  font-weight: 600;
+}
+.btnn button {
+  padding: 12px 30px;
+  border-radius: 30px;
+  background-color: #f94f4f;
+  border: 1px solid #f94f4f;
+  color: white;
+  font-size: 12px;
+}
+#temp28 {
+  font-size: 20px;
+  color: #434040;
+  font-weight: 700;
+}
+#temp29 {
+  font-size: 12px;
+  text-align: center;
+  padding: 10px 70px;
+}
+.BoxesOfferContainer{
+  display: contents;
+}
+.thirdPageOffer {
+  padding:  50px;
+}.BoxesOffer {
+  padding: 10px ;
+}
+#temp36 {
+  font-size: 20px ;
+}
+.fourthPageContainer {
+  padding: 30px;
+  /* text-align: ; */
+}
+#temp37{
+  font-size: 15px;
+  /* text-align: ; */
+}
+.fourthPageOffer {
+  flex-direction: column;
+}
+.buttonsOffer{
+  margin-top: 20px;
+  flex-direction: row;
+}
+.buttonsOffer button {
+    padding: 5px 20px;
+    font-size: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0px 3px 5px #e2e2e2;
+    transition: 0.3s;
+    /* text-align: left; */
+}
+#temp32 {
+  
+font-size: 20px;
+}
+.fourthPageContainer p{
+  width: 100%;
+}
+#temp33 {
+  font-size: 12px;
+}
+#temp34 {
+  font-size: 15px;
+}
+#temp35 {
+  font-size: 10px;
+}
+.fourthPageOffer{
+  gap: 0px;
+}
+#temp38 {
+  margin-top: 0px;
+  font-size: 8px;
 }
 }

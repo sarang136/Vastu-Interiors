@@ -134,24 +134,24 @@ const ModularJourney = () => {
         <div className="content">
           {activeSection === "exp" && (
             <div className="section">
-              <div className="FifthPageImageBox">
-                <video
-                  width="100%"
-                  height="auto"
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                >
-                  <source src={`${process.env.PUBLIC_URL}/Images/drawer.mp4`} type="video/mp4" />
+            <div className="FifthPageImageBox">
+              <video
+                width="100%"
+                height="auto"
+                autoPlay
+                loop
+                muted
+                playsInline
+              >
+                <source src={`${process.env.PUBLIC_URL}/Images/drawer.mp4`} type="video/mp4" />
 
-                </video>
-              </div>
-              <div className="FifthPageTextBox">
-                <p id='temp18' >Drawer Cyclic Test</p>
-                <p>Ensures extended life for your cabinet drawers.</p>
-              </div>
+              </video>
             </div>
+            <div className="FifthPageTextBox">
+              <p id='temp18' >Drawer Cyclic Test</p>
+              <p>Ensures extended life for your cabinet drawers.</p>
+            </div>
+          </div>
           )}
 
 
