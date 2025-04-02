@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Anchors from '../Anchors'
 import OfferingData from './OfferingData'
 import Footer from '../Footer';
+import { Link } from 'react-router-dom';
 
 const Offering = () => {
   const [Mona, SetMona] = useState("Booking");
@@ -14,7 +15,7 @@ const Offering = () => {
 
       <div className='firstPageoffer'>
         <p id='temp27'>Dream Interiors Made Possible</p>
-        <div className='btnn'><button>Book Free Consulatation</button></div>
+        <div className='btnn'><Link to={"/consultus"}><button>Book Free Consulatation</button></Link></div>
       </div>
 
 
@@ -65,7 +66,7 @@ const Offering = () => {
                 <p id='temp32'>Booking</p>
                 <p id='temp33'>Say hi to your designer and kick-start your dream with a design proposal.</p>
 
-                <hr />
+                < hr style={{opacity:"0.3"}} />
                 <p id='temp34'>&#9679;Fill form</p>
                 <p id='temp35'>Share your basic information and property details in a quiz.</p>
                 <p id='temp34'>&#9679;Get a call</p>

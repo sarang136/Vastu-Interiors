@@ -119,7 +119,7 @@ const Navbar = () => {
                                 <div className="client-boxes" key={index}>
                                     <img src={res2.image} alt="Design" />
                                     <p>{res2.text}</p>
-                                    <p style={{fontStyle:"italic"}}>- {res2.name}</p>
+                                    <p style={{ fontStyle: "italic" }}>- {res2.name}</p>
                                 </div>
                             ))
                         }
@@ -131,25 +131,25 @@ const Navbar = () => {
 
 
             <div className="foundersDiv">
-<div className="sawarmal">
-    <div className="image"><img src="https://images.livspace-cdn.com/w:640/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/about-us-1629737930-WrXkD/mobile-1629737947-8cnvs/founders-1629749026-4Dd76/anuj-mobile-1632298064-KVsoM.jpg"></img></div>
-    <div className="textt">
-        <h1>Sawarmal Jangid</h1>
-    <h3>founder</h3>
-    <p>Sawarmal Jangid, the visionary behind Vastu Interiors, crafts dream homes with precision and passion, turning ideas into reality.</p>
-        
-    </div>
-</div>
+                <div className="sawarmal">
+                    <div className="image"><img src="/Images/iamSandy.png"></img></div>
+                    <div className="textt">
+                        <h1>Sawarmal Jangid</h1>
+                        <h3>founder</h3>
+                        <p>Sawarmal Jangid, the visionary behind Vastu Interiors, crafts dream homes with precision and passion, turning ideas into reality.</p>
 
-<div className="sawarmal">
-    <div className="image"><img src="https://images.livspace-cdn.com/w:640/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/about-us-1629737930-WrXkD/mobile-1629737947-8cnvs/founders-1629749026-4Dd76/anuj-mobile-1632298064-KVsoM.jpg"></img></div>
-    <div className="textt">
-        <h1>Sandeep Jangid</h1>
-    <h3>Co-founder </h3>
-    <p>Sandeep Jangid, the strategist of Vastu Interiors, blends creativity with practicality, ensuring every home is as functional  .</p>
-        
-    </div>
-</div>
+                    </div>
+                </div>
+
+                <div className="sawarmal">
+                    <div className="image"><img src="/Images/iamSandy.png"></img></div>
+                    <div className="textt">
+                        <h1>Sandeep Jangid</h1>
+                        <h3>Co-founder </h3>
+                        <p>Sandeep Jangid, the strategist of Vastu Interiors, blends creativity with practicality, ensuring every home is as functional  .</p>
+
+                    </div>
+                </div>
             </div>
 
 
@@ -167,7 +167,7 @@ const Navbar = () => {
 
             <div>
                 {/* <Footer /> */}
-                <Footer/>
+                <Footer />
             </div>
         </section>
     );

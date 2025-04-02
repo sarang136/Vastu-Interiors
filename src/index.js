@@ -95,6 +95,7 @@ import HowItWorks from './components/HowItWorks/HowItWorks';
 import Offering from './components/HowItWorks/Offering';
 import ReferFriend from './components/HowItWorks/ReferFriend';
 import ModularJourney from './components/HowItWorks/ModularJourney';
+import Connectus from './components/Connectus';
 const router = createBrowserRouter([
 
   {
@@ -443,6 +444,10 @@ const router = createBrowserRouter([
   ,{
     path:"/modularjourney",
     element: <ModularJourney/>
+  }
+  ,{
+    path:"/connectus",
+    element: <Connectus/>
   }
 
 
