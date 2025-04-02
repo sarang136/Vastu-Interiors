@@ -3,9 +3,9 @@ import React from "react";
 
 const Carousel = () => {
   const items = [
-    // { title: "45-day move-in guarantee", icon: "📅" },
+    { title: "75 days move-in guarantee", icon: "📅" },
     { title: "146 quality checks", icon: "✅" },
-    { title: "1,00,000+ happy homes", icon: "🏡" },
+    { title: "25,000+ happy homes", icon: "🏡" },
     { title: "60+ cities", icon: "🌆" },
     // { title: "3 countries", icon: "🌍" },
     // { title: "20+ Awards", icon: "🏆" },

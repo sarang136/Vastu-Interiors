@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import DiningCards from "../utils/DiningCards";
 import Anchors from "./Anchors";
+import Footer from "./Footer";
 
 const FiveComp = () => {
   // State to store liked/unliked status for each item
@@ -81,104 +82,10 @@ const FiveComp = () => {
       </div>
 
 
-      {/* <div className="faqs-container-FiveComp">
-        <div className="FAQ-heading">
-          <p>FAQ About Dining Room Designs</p>
-        </div>
-
-
-        <div className="Qa-FAQS">
-
-          <div id="para" style={{
-            fontWeight: "lighter",
-            color: "gray",
-            fontSize: "18px"
-          }}>
-            <p style={{
-              fontWeight: "600",
-              color: "red"
-
-            }}> 1) What are the Essentials of a Good Dining Room Interior Design?</p>
-
-            -    You can choose any style for your dining room interior design, but some essentials will remain constant in all of them. A comfortable dining table Crockery cabinet to store your crockeries Table linens to help set the table Appropriate lighting and seating arrangements A convenient pathway from the kitchen to the table
-
-            <hr />
-            <p style={{
-              fontWeight: "600",
-              color: "red"
-
-            }}> 2) How to Design a Dining Room Interior on a Budget? </p>
-            -
-            With some super simple tips, you can design the dining room you've always wanted on a budget. Light up the space with a good pendant or chandelier Rugs can instantly add dimension and class to your dining area Pick complementing accessories in terms of linen and cutlery Do up the wall with a colourful wallpaper You can substitute crockery units with floating shelves Use benches instead of chairs to accommodate more people Invest in decor - photo frames, bookshelves, paintings to instantly spruce up your space
-
-
-            <hr />
-            <p style={{
-              fontWeight: "600",
-              color: "red"
-
-            }}> 3) How to Separate a Combined Dining Hall Design?</p>
-
-            - If you have a combined dining hall, you can embrace an open concept dining room or use a few simple alternatives to separate a combined dining room. A lattice screen or jali An L-shaped sofa A glass door Different flooring
-
-
-
-            <hr />
-            <p style={{
-              fontWeight: "600",
-              color: "red"
-
-            }}> 4) How Do You Style a Small Dining Room? </p>
-            -
-            There are plenty of small dining room ideas that can help maximise your space. Pick neutral tones Add artwork on the walls Keep functional décor Add a contrasting rug Paint the “fifth wall” a.k.a your ceiling to add depth to your room
-
-
-            <hr />
-            <p style={{
-              fontWeight: "600",
-              color: "red"
-
-            }}> 5) What are Some Dining Room Seating Ideas?</p>
-            -
-            We often associate a dining table with matching chairs; however, this is quickly changing. People are experimenting by mixing and matching furniture pieces for a modern feel. You can do this by placing assorted styles of chairs or by painting the chairs you already have in distinct colours. If you want to go a step further, replacing the chairs completely is also an option. You can substitute them for a bench on one side of the table or even use stools and beanbags as an alternative.
-          </div>
-
-
-        </div>
-
-
-      </div> */}
-
+    
 
       <div>
-        <div className="FooterForFiveComp">
-          <div className='footer-container'>
-            <div className='footertext'>
-              <p>Vastu Interiors</p>
-            </div>
-
-            <div className='contactsGridsDisplay'>
-              <div className='contactsGridsGtc'>
-                <div className='mainGrids'>
-                  <p style={{ marginTop: '20px', marginLeft: "20px" }}>Email id : sandeepjangid@gmail.com</p>
-                  <p style={{ marginTop: '0px', marginLeft: "20px" }}>Contact Number : 9665150750</p>
-                  <div className='scHandles'>
-                    <div className='logos'><a href='https://www.livspace.com/in/about-us'><img src='Images/insta.webp'></img></a></div>
-                    <div className='logos' style={{ marginLeft: "-40px", width: "90%" }}><a href='https://www.livspace.com/in/about-us'><img src='Images/yt.webp'></img></a></div>
-                    <div className='logos' style={{ marginLeft: "-32px", width: "80%", height: "35px", marginTop: "9px" }}><a href='https://www.livspace.com/in/about-us'><img src='Images/fb.webp'></img></a></div>
-                  </div>
-                </div>
-                <div className='mainGrids locations'>
-                  <p>Locations - Mumbai, Pune, Nagpur, Nashik, Aurangabad, Solapur, Kolhapur, Thane, Amravati, Ratnagiri, Jalgaon, Latur, Satara, Sangli, Ahmednagar, Chandrapur, Nanded, Dhule, Bhiwandi, and Akola </p>
-                </div>
-              </div>
-
-            </div>
-            <div className='copyright'>
-              <p>© 2025 VastuInteriors.com All Rights Reserved</p>
-            </div>
-          </div>
-        </div>
+       <Footer/>
       </div>
 
 

@@ -1,17 +1,17 @@
 const ClientSayData = [{
-    image: "https://images.livspace-cdn.com/w:1920/h:194/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/unification-home-1663681501-pVo75/mobile-1664858443-m6vo0/testimonials-1682062695-HIjkJ/rohit-paula-1682062954-3pnjQ.jpg",
+    image: "https://media.istockphoto.com/id/1196706522/photo/happy-indian-family-at-home.jpg?s=612x612&w=0&k=20&c=x33IKeNh97rmBgrlMWopX14LDFA_E0Lps_HtkxCDehI=",
     text: "Vastu Interiors transformed my home beautifully while staying within my budget. Their designs are elegant, and the execution was flawless!",
-    name:"Amit Sharma",
+    name:"Mr. Sharma",
 },
 {
-    image: "https://images.livspace-cdn.com/w:1920/h:194/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/unification-home-1663681501-pVo75/mobile-1664858443-m6vo0/testimonials-1682062695-HIjkJ/swati-gaurav-1682063290-MSkUW.jpg",
+    image: "https://media.istockphoto.com/id/1492784511/photo/indian-family-having-fun-together-at-home.jpg?s=612x612&w=0&k=20&c=DrtRuevkme7jh2jynqfP9rNdbts968cQUhSuPw88lCc=",
     text: "I’m amazed by the creativity and professionalism of Vastu Interiors. They turned my vision into reality with stunning interiors!",
-    name:"Rahul Verma",
+    name:"Mr. Verma",
 },
 {
-    image: "https://images.livspace-cdn.com/w:1920/h:194/plain/https://d3gq2merok8n5r.cloudfront.net/bumblebee/in/unification-home-1663681501-pVo75/mobile-1664858443-m6vo0/testimonials-1682062695-HIjkJ/puja-bhatia-1682063289-aTyu6.jpg",
+    image: "https://media.istockphoto.com/id/2194566983/photo/family-of-three-having-breakfast-together-in-the-kitchen.jpg?s=612x612&w=0&k=20&c=xHsrMvdsA11qpjWdWyMAk-iPB2WzueRMdCdSMUQG-JU=",
     text: "From concept to completion, Vastu Interiors delivered exceptional service. Their attention to detail and quality is truly commendable!",
-    name:"Priya Desai",
+    name:"Mr. Desai",
 }
 ]
 export default ClientSayData;

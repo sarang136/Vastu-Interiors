@@ -1034,6 +1034,7 @@
   border: 1px solid #e8dbdb;
   border-radius: 10px;
   padding: 30px;
+  background-color: white;
 }
 .foundersDiv{
   display: flex;
@@ -1179,7 +1180,7 @@
   /* height: 300px; */
   margin-top: 50px;
   overflow: hidden;
-  padding: 30px;
+  padding: 10px;
   display: flex
 ;
   flex-direction: column;
@@ -1193,7 +1194,7 @@
 }
 
 .client-boxes img {
-  height: 60%;
+  /* height: 60%; */
   width: 100%;
   border-radius: 10px;
 }
@@ -1201,6 +1202,7 @@
 .client-boxes p {
   font-size: 15px;
   margin-left: 0px;
+  margin-top: 10px;
 }
 
 .loader {
@@ -3112,6 +3114,7 @@ width: 100%;
   .client-boxes p {
     font-size: 15px;
     margin-left: 0px;
+    margin-top: 10px;
   }
 
   .client-boxes {
@@ -3120,11 +3123,11 @@ width: 100%;
         margin-top: 10px;
         /* padding-bottom: 0px; */
         overflow: visible;
-        padding: 20px;
+        padding: 10px;
   }
 
   .client-boxes img {
-    height: 55%;
+    height: 65%;
   }
 
   .FAQ-heading {
@@ -3726,6 +3729,11 @@ width: 100%;
 }
 .textt h1, h3{
   width: max-content;
+  font-size: 10px;
+}
+.offlineDiv img {
+  height: 70px;
+  width: 70px;
 }
 .foundersDiv{
 flex-direction: column;
@@ -3744,6 +3752,10 @@ flex-direction: column;
 }
 .sawarmal{
   background-color: white;
+}
+.TextConnect img {
+  height: 50px;
+width: 50px;
 }
 .client-says-display{
 padding: 10px;
