@@ -11,7 +11,7 @@ const Anchors = () => {
         <div className='temp-container'>
             <div className='container'>
                 <div className='anchors'>
-                    <p>VASTU INTERIORS </p>
+                    <p id='temp49'>VASTU INTERIORS </p>
                     <div className='nothingDiv'>
 
                         <Link style={{ textDecoration: "none" }} to="/">HOME</Link>
@@ -48,7 +48,7 @@ const Anchors = () => {
                             <Link to="/modularjourney">MODULAR JOURNEY </Link>
                             <Link to="/offering">OFFERING</Link>
                             <Link to={"/connectus"} id='designI'>CONNECT US</Link>
-                            {/* <Link to="/referfriend">REFER A FRIEND </Link> */}
+                            <Link to="/projects">OUR WORK</Link>
                             <Link id='designI' to="/contact">DESIGN IDEAS</Link>
                             {/* <Link id='designI' to="/about">ABOUT US</Link> */}
                             {/* <Link id='designI' to="/projects">PROJECTS</Link> */}
