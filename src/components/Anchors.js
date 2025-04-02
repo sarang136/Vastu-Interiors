@@ -47,18 +47,22 @@ const Anchors = () => {
                             <Link to="/howitworks">HOW IT WORKS </Link>
                             <Link to="/modularjourney">MODULAR JOURNEY </Link>
                             <Link to="/offering">OFFERING</Link>
+                            <Link to={"/connectus"} id='designI'>CONNECT US</Link>
                             {/* <Link to="/referfriend">REFER A FRIEND </Link> */}
                             <Link id='designI' to="/contact">DESIGN IDEAS</Link>
                             {/* <Link id='designI' to="/about">ABOUT US</Link> */}
-                            <Link id='designI' to="/projects">PROJECTS</Link>
+                            {/* <Link id='designI' to="/projects">PROJECTS</Link> */}
+                            {/* <Link to={"/connectus"}>CONNECT US</Link> */}
 
                             {/* <hr/> */}
                             <Link style={{ borderBottom: "1px solid white" }}>Social Media Handles</Link>
 
+                            
+
                             <div className='mediagateways'>
 
                                 <a id='instaFor' href='https://www.instagram.com/jangidsandeep730/?hl=en' target='#'></a>
-                                {/* <p>&#xf16d;</p> */}
+                               
                                 <a id='ytFor' href='https://www.youtube.com/' target='#'></a>
                                 <a id='fbFor' href='https://www.facebook.com/sandeep.jangid.77770' target='#'></a>
                             </div>
