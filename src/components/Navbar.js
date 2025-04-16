@@ -132,21 +132,21 @@ const Navbar = () => {
 
             <div className="foundersDiv">
                 <div className="sawarmal">
-                    <div className="image"><img src="/Images/sawarmal.jpg"></img></div>
+                    <div className="image"><img src="/Images/sawarmal.jpgs"></img></div>
                     <div className="textt">
-                        <h1>Sawarmal Jangid</h1>
+                        <h1>Lorem Ipsum</h1>
                         <h3>founder</h3>
-                        <p>Sawarmal Jangid, the visionary behind Vastu Interiors, crafts dream homes with precision and passion, turning ideas into reality.</p>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
 
                     </div>
                 </div>
 
                 <div className="sawarmal">
-                    <div className="image"><img src="/Images/iamSandy.png"></img></div>
+                    <div className="image"><img src="/Images/iamSandy.pngs"></img></div>
                     <div className="textt">
-                        <h1>Sandeep Jangid</h1>
+                        <h1>Lorem Ipsum</h1>
                         <h3>Co-founder </h3>
-                        <p>Sandeep Jangid, the strategist of Vastu Interiors, blends creativity with practicality, ensuring every home is as functional  .</p>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
 
                     </div>
                 </div>
