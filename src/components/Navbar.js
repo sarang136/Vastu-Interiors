@@ -132,7 +132,7 @@ const Navbar = () => {
 
             <div className="foundersDiv">
                 <div className="sawarmal">
-                    <div className="image"><img src="/Images/sawarmal.jpgs"></img></div>
+                    <div className="image"><img src="/Images/sawarmal.jpg"></img></div>
                     <div className="textt">
                         <h1>Lorem Ipsum</h1>
                         <h3>founder</h3>
@@ -142,7 +142,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="sawarmal">
-                    <div className="image"><img src="/Images/iamSandy.pngs"></img></div>
+                    <div className="image"><img src="/Images/iamSandy.png"></img></div>
                     <div className="textt">
                         <h1>Lorem Ipsum</h1>
                         <h3>Co-founder </h3>
